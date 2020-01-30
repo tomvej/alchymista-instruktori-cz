@@ -3,6 +3,7 @@ module.exports = {
         title: 'Alchymistův učeň',
         description: 'Plně zážitková Tvrz',
         author: 'Tvrz',
+        lang: 'cs',
         year: 2020,
     },
     plugins: [
