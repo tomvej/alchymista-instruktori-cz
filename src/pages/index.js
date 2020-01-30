@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './layout.scss';
+
 import {SEO} from '../containers';
 import Layout from '../components/layout';
 

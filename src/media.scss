@@ -1,0 +1,37 @@
+/*
+    Breakpoints:
+    small   40em
+    medium  64em
+    large   75em
+    xlarge  90em
+ */
+
+@mixin sm {
+    @media screen and (max-width: 39.9375em) {
+        @content
+    }
+}
+
+@mixin md {
+    @media screen and (max-width: 63.9375em) {
+        @content
+    }
+}
+
+@mixin md-only {
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        @content
+    }
+}
+
+@mixin lg {
+    @media screen and (max-width: 75.9375em) {
+        @content
+    }
+}
+
+@mixin lg-only {
+    @media screen and (min-width: 64em) and (max-width: 75.9375em) {
+        @content
+    }
+}

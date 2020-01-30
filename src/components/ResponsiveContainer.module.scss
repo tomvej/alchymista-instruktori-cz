@@ -1,0 +1,21 @@
+@import "../media";
+
+.main {
+    margin: 0 auto;
+    padding: 0 10px;
+
+    box-sizing: border-box;
+    max-width: 70em;
+
+    @include lg-only {
+        max-width: 60em;
+    }
+
+    @include md-only {
+        max-width: 37.5em;
+    }
+
+    @include sm {
+        max-width: 100%;
+    }
+}
