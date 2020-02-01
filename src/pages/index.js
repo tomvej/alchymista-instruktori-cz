@@ -3,7 +3,7 @@ import React from 'react';
 import './style.scss';
 
 import {SEO} from '../containers';
-import {Navbar, Title} from '../components';
+import {Navbar, SummaryTable, Title} from '../components';
 
 const IndexPage = () => (
     <>
@@ -12,7 +12,16 @@ const IndexPage = () => (
             <li>Test 1</li>
             <li>Test 2</li>
         </Navbar>
-        <Title title="Alchymistův učeň" subtitle="plně zážitková Tvrz" />
+        <Title title="Alchymistův učeň" subtitle="plně zážitková Tvrz">
+            <SummaryTable
+                items={{
+                    Věk: '18+',
+                    Termín: '14.\u201323. 8. 2020',
+                    Cena: 'od 4500 Kč',
+                }}
+            />
+        </Title>
+        <h1>Přijeď objevit svůj kámen mudrců</h1>
     </>
 );
 

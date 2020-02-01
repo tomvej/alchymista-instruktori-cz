@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+
+    min-width: 80%;
+
+    background-color: darkgoldenrod;
+}
+
+.itemWrapper {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.itemWrapper + .itemWrapper {
+    border-left: 1px solid black;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.label {
+
+}
+
+.content {
+    margin: 0;
+}
+
+.action {
+    flex: 1 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: steelblue;
+    text-align: center;
+    vertical-align: middle;
+}
