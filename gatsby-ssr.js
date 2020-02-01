@@ -1,7 +1,10 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
+/* eslint-disable import/prefer-default-export */
+import React from 'react';
+import {NavbarContextProvider} from './src/components';
 
-// You can delete this file if you're not using it
+// eslint-disable-next-line react/prop-types
+export const wrapRootElement = ({element}) => (
+    <NavbarContextProvider>
+        {element}
+    </NavbarContextProvider>
+);

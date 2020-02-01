@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import ScrollLink from './ScrollLink';
+
 import style from './SummaryTable.module.scss';
 
 const SummaryTable = ({items}) => (
@@ -13,7 +15,8 @@ const SummaryTable = ({items}) => (
                 </div>
             </div>
         ))}
-        <div className={style.action}>Přihlásit se</div>
+        {/* FIXME */}
+        <ScrollLink to="about" className={style.action}>Přihlásit se</ScrollLink>
     </dl>
 );
 

@@ -1,19 +1,25 @@
-import React, {useState} from 'react';
+import React, {useState, useCallback} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import {FontAwesomeIcon as FAIcon} from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 
 import ResponsiveContainer from './ResponsiveContainer';
+import {useNavbarContext} from './navbarContext';
 
 import style from './Navbar.module.scss';
 
 const Navbar = ({brand, children}) => {
+    const {setHeight, shrunk} = useNavbarContext();
     const [menuVisible, setMenuVisible] = useState(false);
     const toggleMenu = () => setMenuVisible((visible) => !visible);
+    const setRef = useCallback((el) => el && setHeight(el.offsetHeight), [setHeight]);
 
     return (
-        <nav className={style.main}>
+        <nav
+            className={classnames(style.main, {[style.shrunk]: shrunk})}
+            ref={setRef}
+        >
             <ResponsiveContainer>
                 <div className={style.container}>
                     <a
