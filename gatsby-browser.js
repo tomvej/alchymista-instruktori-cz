@@ -1,7 +1,8 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+/* eslint-disable import/prefer-default-export */
 
-// You can delete this file if you're not using it
+export const onClientEntry = () => {
+    /* IntersectionObserver polyfill for IE11 */
+    if (!('InterSectionObserver' in window)) {
+        import('intersection-observer'); // eslint-disable-line no-unused-expressions
+    }
+};

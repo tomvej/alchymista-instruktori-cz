@@ -1,5 +1,14 @@
 module.exports = {
     extends: 'airbnb',
+    parser: 'babel-eslint',
+    parserOptions: {
+        sourceType: 'module',
+        allowImportExportEverywhere: true,
+        ecmaVersion: 6,
+    },
+    env: {
+        browser: true,
+    },
     rules: {
         // FORMATTING
         indent: ['error', 4, {
