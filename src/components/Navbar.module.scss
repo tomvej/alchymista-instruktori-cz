@@ -1,9 +1,11 @@
 @import "../media";
+@import "../variables";
 
 .main {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: $z-index-fixed;
 
     background-color: cornflowerblue; //FIXME
 }
