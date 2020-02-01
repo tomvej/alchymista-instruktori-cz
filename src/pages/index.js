@@ -2,8 +2,7 @@ import React from 'react';
 
 import './style.scss';
 
-import {SEO} from '../containers';
-import {Navbar, SummaryTable, Title} from '../components';
+import {SEO, Navbar, SummaryTable, Title, Section} from '../components';
 
 const IndexPage = () => (
     <>
@@ -21,7 +20,9 @@ const IndexPage = () => (
                 }}
             />
         </Title>
-        <h1>Přijeď objevit svůj kámen mudrců</h1>
+        <Section name="about">
+            <h1>Přijeď objevit svůj kámen mudrců</h1>
+        </Section>
     </>
 );
 
