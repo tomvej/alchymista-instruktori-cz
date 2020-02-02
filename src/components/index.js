@@ -5,3 +5,5 @@ export {default as SummaryTable} from './SummaryTable';
 export {default as SEO} from './SEO';
 export {NavbarContextProvider} from './navbarContext';
 export {default as Navlink} from './Navlink';
+export {default as FaqContainer} from './FaqContainer';
+export {default as FaqItem} from './FaqItem';

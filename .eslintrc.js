@@ -19,6 +19,7 @@ module.exports = {
         'object-curly-spacing': ['error', 'never'],
         'object-curly-newline': ['error', {multiline: true, consistent: true}],
         'curly': ['error', 'all'],
+        'max-len': ['error', 140],
 
         // REACT
         'react/jsx-filename-extension': ['error', {extensions: ['.js']}],
@@ -26,4 +27,4 @@ module.exports = {
 
         'no-else-return': 'off',
     },
-}
+};
