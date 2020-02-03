@@ -37,6 +37,11 @@ module.exports = {
             },
         },
         'gatsby-plugin-sass',
-        'gatsby-transformer-remark',
+        {
+            resolve: 'gatsby-transformer-remark',
+            options: {
+                plugins: ['remark-czech-preprocessor'],
+            },
+        },
     ],
 };
