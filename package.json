@@ -19,6 +19,7 @@
     "gatsby-plugin-sass": "2.1.27",
     "gatsby-plugin-sharp": "2.4.4",
     "gatsby-source-filesystem": "2.1.47",
+    "gatsby-transformer-remark": "2.6.50",
     "gatsby-transformer-sharp": "2.3.13",
     "intersection-observer": "0.7.0",
     "node-sass": "4.13.1",
@@ -26,7 +27,8 @@
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-helmet": "5.2.1",
-    "react-scroll": "1.7.16"
+    "react-scroll": "1.7.16",
+    "rehype-react": "4.0.1"
   },
   "devDependencies": {
     "eslint-config-airbnb": "18.0.1",

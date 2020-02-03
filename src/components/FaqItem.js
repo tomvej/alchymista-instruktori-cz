@@ -24,7 +24,7 @@ const FaqItem = ({title, children}) => {
 };
 
 FaqItem.propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.node.isRequired,
     children: PropTypes.node,
 };
 
