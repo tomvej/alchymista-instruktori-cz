@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classnames from 'classnames';
 
 import {useFaqContext} from './FaqContainer';
+import DropdownAnimation from './DropdownAnimation';
 
 import style from './FaqItem.module.scss';
 
@@ -18,7 +18,9 @@ const FaqItem = ({title, children}) => {
                     {title}
                 </button>
             </dt>
-            <dd className={classnames(style.content, {[style.visible]: expanded})}>{children}</dd>
+            <DropdownAnimation visible={expanded}>
+                <dd className={style.content}>{children}</dd>
+            </DropdownAnimation>
         </>
     );
 };
