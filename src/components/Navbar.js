@@ -12,13 +12,15 @@ import style from './Navbar.module.scss';
 const Navbar = ({brand, children}) => {
     const {setHeight, shrunk} = useNavbarContext();
     const [menuVisible, setMenuVisible] = useState(false);
+    const [menuHeight, setMenuHeight] = useState(0);
     const toggleMenu = () => setMenuVisible((visible) => !visible);
-    const setRef = useCallback((el) => el && setHeight(el.offsetHeight), [setHeight]);
+    const setNavbarRef = useCallback((el) => el && setHeight(el.offsetHeight), [setHeight]);
+    const setMenuRef = useCallback((el) => el && setMenuHeight(el.scrollHeight), [setMenuHeight]);
 
     return (
         <nav
             className={classnames(style.main, {[style.shrunk]: shrunk})}
-            ref={setRef}
+            ref={setNavbarRef}
         >
             <ResponsiveContainer>
                 <div className={style.container}>
@@ -36,7 +38,11 @@ const Navbar = ({brand, children}) => {
                     >
                         <FAIcon icon={faBars} />
                     </button>
-                    <ul className={classnames(style.menu, {[style.menuVisible]: menuVisible})}>
+                    <ul
+                        className={classnames(style.menu, {[style.menuHidden]: !menuVisible})}
+                        style={menuVisible ? {maxHeight: menuHeight} : {}}
+                        ref={setMenuRef}
+                    >
                         {children}
                     </ul>
                 </div>

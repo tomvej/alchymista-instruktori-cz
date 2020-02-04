@@ -12,6 +12,10 @@
 
 .shrunk {
     background-color: transparent;
+
+    @include md {
+        background-color: cornflowerblue; //FIXME
+    }
 }
 
 .container {
@@ -44,11 +48,11 @@
         flex: 1 1 100%;
         flex-direction: column;
 
-        height: 0;
         overflow: hidden;
+        transition: .5s ease;
     }
 }
 
-.menuVisible {
-    height: auto;
+.menuHidden {
+    max-height: 0;
 }
