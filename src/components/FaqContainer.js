@@ -1,6 +1,8 @@
 import React, {createContext, useContext, useState} from 'react';
 import PropTypes from 'prop-types';
 
+import style from './FaqContainer.module.scss';
+
 const faqContext = createContext();
 
 const FaqContainer = ({children}) => {
@@ -8,7 +10,7 @@ const FaqContainer = ({children}) => {
     const toggleExpandedFaq = (faq) => setExpandedFaq((expanded) => (faq !== expanded ? faq : null));
 
     return (
-        <dl>
+        <dl className={style.main}>
             <faqContext.Provider value={{expandedFaq, toggleExpandedFaq}}>
                 {children}
             </faqContext.Provider>

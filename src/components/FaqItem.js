@@ -1,5 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
+import {FontAwesomeIcon as FAIcon} from '@fortawesome/react-fontawesome';
+import {faAngleDown} from '@fortawesome/free-solid-svg-icons';
 
 import {useFaqContext} from './FaqContainer';
 import DropdownAnimation from './DropdownAnimation';
@@ -10,12 +13,14 @@ const FaqItem = ({title, children}) => {
     const [expanded, toggleExpanded] = useFaqContext(title);
     return (
         <>
-            <dt className={style.title}>
+            <dt className={classnames(style.title, {[style.expanded]: expanded})}>
                 <button
                     type="button"
                     onClick={toggleExpanded}
+                    className={style.toggler}
                 >
                     {title}
+                    <FAIcon icon={faAngleDown} className={style.icon} />
                 </button>
             </dt>
             <DropdownAnimation

@@ -1,5 +1,28 @@
-.title {
+.toggler {
+    width: 100%;
+    font-size: 1.2em;
 
+    user-select: text;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggler:focus {
+    text-decoration: underline dotted;
+    text-decoration-skip-ink: auto;
+}
+
+.title {
+    border-top: 1px solid black; // FIXME
+}
+
+.icon {
+    transition: .5s ease;
+    transform: rotate(0deg);
+}
+
+.expanded .icon {
+    transform: rotate(-180deg);
 }
 
 .content {
