@@ -4,28 +4,32 @@ import classnames from 'classnames';
 
 import style from './DropdownAnimation.module.scss';
 
-const DropdownAnimation = ({children, visible}) => {
+const DropdownAnimation = ({children, visible, tag: Tag, className}) => {
     const [height, setHeight] = useState('default');
     const setDropdownRef = useCallback((el) => el && setHeight(el.scrollHeight), [setHeight]);
     return (
-        <div
+        <Tag
             ref={setDropdownRef}
-            className={classnames(style.main, {[style.hidden]: !visible})}
+            className={classnames(style.main, className, {[style.hidden]: !visible})}
             style={{maxHeight: visible ? height : 0}}
         >
             {children}
-        </div>
+        </Tag>
     );
 };
 
 DropdownAnimation.propTypes = {
     children: PropTypes.node,
     visible: PropTypes.bool,
+    tag: PropTypes.string,
+    className: PropTypes.string,
 };
 
 DropdownAnimation.defaultProps = {
     children: null,
     visible: false,
+    tag: 'div',
+    className: null,
 };
 
 export default DropdownAnimation;

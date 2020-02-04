@@ -18,8 +18,12 @@ const FaqItem = ({title, children}) => {
                     {title}
                 </button>
             </dt>
-            <DropdownAnimation visible={expanded}>
-                <dd className={style.content}>{children}</dd>
+            <DropdownAnimation
+                visible={expanded}
+                tag="dd"
+                className={style.content}
+            >
+                {children}
             </DropdownAnimation>
         </>
     );
