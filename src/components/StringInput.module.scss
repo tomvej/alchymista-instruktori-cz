@@ -20,3 +20,12 @@
 .invalid:focus {
     box-shadow: 0 0 0 .2rem rgba($color-error, .25);
 }
+
+.errorIcon {
+    color: $color-error;
+    position: absolute;
+}
+
+.area {
+    height: 8em;
+}

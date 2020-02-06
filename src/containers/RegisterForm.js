@@ -25,6 +25,12 @@ export default () => {
                         validate={[required, validEmail]}
                         component={StringInput}
                     />
+                    <FormField
+                        name="message"
+                        placeholder="Chceš nám něco vzkázat?"
+                        component={StringInput}
+                        area
+                    />
                 </div>
             )}
         </Form>
