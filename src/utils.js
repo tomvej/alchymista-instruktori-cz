@@ -11,6 +11,8 @@ export const createMarkdownRenderer = (components = {}) => new RehypeReact({
     components,
 }).Compiler;
 
+export const renderMarkdown = createMarkdownRenderer();
+
 export const required = (value) => ((value !== null && value !== undefined && value !== '') ? undefined : 'Toto pole je povinné.');
 
 export const validEmail = (value) => (emailValidator.validate(value) ? undefined : 'Toto není e-mailová adresa.');

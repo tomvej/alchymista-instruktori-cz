@@ -1,10 +1,9 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
-import {createMarkdownRenderer} from '../utils';
+import {renderMarkdown} from '../utils';
 import {FaqContainer, FaqItem} from '../components';
 
-const renderAst = createMarkdownRenderer();
-const renderNodes = (children) => renderAst({type: 'root', children});
+const renderNodes = (children) => renderMarkdown({type: 'root', children});
 
 const isHeading = ({type, tagName}) => type === 'element' && tagName === 'h1';
 

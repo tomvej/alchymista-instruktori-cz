@@ -5,6 +5,12 @@ module.exports = {
         author: 'Tvrz',
         lang: 'cs',
         year: 2020,
+        formFields: {
+            name: 'name',
+            email: 'email',
+            message: 'message',
+            photoConsent: 'consent',
+        },
     },
     plugins: [
         'gatsby-plugin-react-helmet',
