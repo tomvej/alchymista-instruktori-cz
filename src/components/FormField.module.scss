@@ -1,0 +1,17 @@
+@import "../variables";
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.error {
+    color: $color-error;
+    font-size: 0.8em;
+    margin-top: 2px;
+}
