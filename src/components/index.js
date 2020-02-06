@@ -9,3 +9,4 @@ export {default as FaqContainer} from './FaqContainer';
 export {default as FaqItem} from './FaqItem';
 export {default as FormField} from './FormField';
 export {default as StringInput} from './StringInput';
+export {default as CheckboxField} from './CheckboxField';

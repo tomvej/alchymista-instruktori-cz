@@ -1,3 +1,10 @@
 $z-index-fixed: 1030;
 
 $color-error: #dc3545;
+
+$color-input-background: white;
+$color-input-border: #ced4da;
+$color-input-border-active: #b3d1cf;
+
+$shadow-input-active: 0 0 0 .2rem rgba($color-input-border-active, .25);
+$shadow-input-error: 0 0 0 .2rem rgba($color-error, .25)

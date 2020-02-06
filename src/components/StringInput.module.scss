@@ -3,14 +3,15 @@
 .main {
     border-radius: .3rem;
     padding: .3rem;
-    border: 1px solid #ced4da; // FIXME
+    border: 1px solid $color-input-border;
+    background-color: $color-input-background;
     margin: .2rem 0;
 }
 
 .main:focus {
-    outline:none;
-    border-color: #b3d1cf; //FIXME
-    box-shadow: 0 0 0 .2rem rgba(#b3d1cf, .25); // FIXME
+    outline: none;
+    border-color: $color-input-border-active;
+    box-shadow: $shadow-input-active;
 }
 
 .invalid {
@@ -18,7 +19,7 @@
 }
 
 .invalid:focus {
-    box-shadow: 0 0 0 .2rem rgba($color-error, .25);
+    box-shadow: $shadow-input-error;
 }
 
 .errorIcon {
