@@ -1,0 +1,41 @@
+@import "../variables";
+
+.main {
+    text-transform: uppercase;
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
+    border-radius: .25rem;
+
+    font-size: .8em;
+    letter-spacing: .1em;
+    padding: 1.25rem 2rem;
+
+    color: unset; // FIXME
+    text-decoration: none;
+}
+
+.main:hover, .main:focus {
+    background-color: saturate($color-primary, 15%);
+    border-color: saturate($color-primary, 15%);
+}
+
+.outline {
+    background-color: transparent;
+    color: $color-primary;
+}
+
+.outline:hover, .outline:focus {
+    background-color: rgba($color-primary, .5);
+    color: unset;
+}
+
+.disabled, .disabled:hover {
+    background-color: desaturate($color-primary, 15%);
+    border-color: desaturate($color-primary, 15%);
+    cursor: not-allowed;
+}
+
+.disabled.outline {
+    color: desaturate($color-primary, 15%);
+    background-color: transparent;
+}

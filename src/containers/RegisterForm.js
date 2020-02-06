@@ -1,7 +1,7 @@
 import React from 'react';
 import {Form} from 'react-final-form';
 import {useStaticQuery, graphql} from 'gatsby';
-import {CheckboxField, ConsentArea, FormField, StringInput} from '../components';
+import {Button, CheckboxField, ConsentArea, FormField, StringInput} from '../components';
 import {required, validEmail, renderMarkdown} from '../utils';
 
 export default () => {
@@ -31,9 +31,10 @@ export default () => {
     return (
         <Form
             onSubmit={(values) => console.log(values)}
+            initialValues={{[photoConsent]: true}}
         >
-            {() => (
-                <div>
+            {({handleSubmit, valid}) => (
+                <form onSubmit={handleSubmit}>
                     <FormField
                         label="Jméno a příjmení"
                         placeholder="Tvoje jméno"
@@ -61,7 +62,8 @@ export default () => {
                     <ConsentArea>
                         {renderMarkdown(htmlAst)}
                     </ConsentArea>
-                </div>
+                    <Button submit disabled={!valid}>Přihlásit se</Button>
+                </form>
             )}
         </Form>
     );

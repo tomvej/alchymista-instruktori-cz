@@ -11,3 +11,4 @@ export {default as FormField} from './FormField';
 export {default as StringInput} from './StringInput';
 export {default as CheckboxField} from './CheckboxField';
 export {default as ConsentArea} from './ConsentArea';
+export {default as Button} from './Button';

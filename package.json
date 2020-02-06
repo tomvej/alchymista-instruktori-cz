@@ -24,6 +24,7 @@
     "gatsby-transformer-remark": "2.6.50",
     "gatsby-transformer-sharp": "2.3.13",
     "intersection-observer": "0.7.0",
+    "invariant": "2.2.4",
     "node-sass": "4.13.1",
     "normalize.css": "8.0.1",
     "prop-types": "15.7.2",
