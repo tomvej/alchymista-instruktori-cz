@@ -1,6 +1,6 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
-import {createMarkdownRenderer} from './utils';
+import {createMarkdownRenderer} from '../utils';
 import {FaqContainer, FaqItem} from '../components';
 
 const renderAst = createMarkdownRenderer();
