@@ -3,7 +3,7 @@ import React from 'react';
 import './style.scss';
 
 import {SEO, Navbar, SummaryTable, Title, Section, Navlink} from '../components';
-import {Faq} from '../containers';
+import {Faq, RegisterForm} from '../containers';
 
 const IndexPage = () => (
     <>
@@ -23,6 +23,10 @@ const IndexPage = () => (
         </Title>
         <Section name="about">
             <h1>Přijeď objevit svůj kámen mudrců</h1>
+        </Section>
+        <Section name="register">
+            <h1>Přihláška</h1>
+            <RegisterForm />
         </Section>
         <Section name="faq">
             <h1>Často kladené otázky</h1>

@@ -7,3 +7,5 @@ export {NavbarContextProvider} from './navbarContext';
 export {default as Navlink} from './Navlink';
 export {default as FaqContainer} from './FaqContainer';
 export {default as FaqItem} from './FaqItem';
+export {default as FormField} from './FormField';
+export {default as StringInput} from './StringInput';
