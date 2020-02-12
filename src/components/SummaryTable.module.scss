@@ -1,20 +1,29 @@
+@import "../variables";
+
+$radius: .5rem;
+$color-font: #ffffff;
+
 .main {
     display: flex;
 
     min-width: 80%;
-
-    background-color: darkgoldenrod;
+    border-radius: $radius;
+    box-shadow: 0 0 .2rem .2rem fade-out(#ffffff, .7); // FIXME color
 }
 
 .itemWrapper {
+    background-color: $color-text;
+
     flex: 1 0 auto;
     display: flex;
     justify-content: center;
-    padding: .3rem;
+
+    padding: $radius;
 }
 
-.itemWrapper + .itemWrapper {
-    border-left: 1px solid black;
+.itemWrapper:first-child {
+    border-top-left-radius: $radius;
+    border-bottom-left-radius: $radius;
 }
 
 .item {
@@ -25,21 +34,43 @@
 
 
 .label {
-
+    color: fade-out($color-font, .2);
 }
 
 .content {
     margin: 0;
+    color: $color-font;
+    font-size: 1.2em;
 }
 
 .action {
     flex: 1 0 auto;
-    padding: .3rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-color: steelblue;
+    padding: $radius;
+    border-top-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+
     text-align: center;
     vertical-align: middle;
+
+    background-color: $color-primary;
+    color: $color-text;
+}
+
+.action:hover, .action:focus {
+    background-color: saturate($color-primary, 15%);
+    text-decoration: none;
+}
+
+.icon {
+    margin-left: 1ex;
+    transform: translateX(0);
+    transition: .3s ease;
+}
+
+.action:hover .icon {
+    transform: translateX(1ex);
 }

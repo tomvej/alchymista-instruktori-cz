@@ -16,6 +16,8 @@ const IndexPage = () => (
         </Navbar>
         <Title title="Alchymistův učeň" subtitle="plně zážitková Tvrz">
             <SummaryTable
+                actionLink="register"
+                actionText="Přihlásit se"
                 items={{
                     Věk: '18+',
                     Termín: '14.\u201323. 8. 2020',
