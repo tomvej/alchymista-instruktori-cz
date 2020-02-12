@@ -1,4 +1,5 @@
 @import "../media";
+@import "../variables";
 
 $mask: #000000;
 
@@ -21,12 +22,18 @@ $mask: #000000;
 }
 
 .title {
-    font-size: 4em;
+    font-size: 6em;
     margin: 0;
     white-space: nowrap;
 
+    font-family: 'Pirata One', sans-serif;
+    letter-spacing: .05em;
+
+    color: black;
+    text-shadow: .2rem .2rem fade-out(white, .7);
+
     @include md {
-        font-size: 3.5em;
+        font-size: 4em;
     }
 
     @include sm {
@@ -35,8 +42,11 @@ $mask: #000000;
 }
 
 .subtitle {
+    color: black;
+    text-shadow: .2rem .2rem fade-out(white, .7);
+
     font-size: 2em;
-    margin: 0;
+    margin: 0 0 1rem 0;
 
     @include sm {
         font-size: 1.5em;

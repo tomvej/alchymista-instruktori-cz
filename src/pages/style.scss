@@ -13,6 +13,14 @@ button {
     outline: none;
 }
 
+@font-face {
+    font-family: 'Pirata One';
+    src: url('../fonts/PirataOne-Regular.woff2') format('woff2'),
+    url('../fonts/PirataOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 
