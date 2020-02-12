@@ -24,6 +24,7 @@ module.exports = {
         // REACT
         'react/jsx-filename-extension': ['error', {extensions: ['.js']}],
         'react/jsx-props-no-spreading': 'off',
+        'react/jsx-one-expression-per-line': 'off',
 
         'no-else-return': 'off',
     },

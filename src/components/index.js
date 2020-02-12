@@ -15,3 +15,4 @@ export {default as Button} from './Button';
 export {default as Form} from './Form';
 export {default as SideBySide} from './SideBySide';
 export {default as Background} from './Background';
+export {default as Footer} from './Footer';
