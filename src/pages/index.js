@@ -3,14 +3,16 @@ import React from 'react';
 import './style.scss';
 
 import {SEO, Navbar, SummaryTable, Title, Section, Navlink} from '../components';
-import {Faq, RegisterForm} from '../containers';
+import {Faq, Info, RegisterForm} from '../containers';
 
 const IndexPage = () => (
     <>
         <SEO />
         <Navbar brand="Alchymistův učeň">
             <Navlink to="about">O akci</Navlink>
+            <Navlink to="info">Informace</Navlink>
             <Navlink to="register">Prihláška</Navlink>
+            <Navlink to="faq">FAQ</Navlink>
         </Navbar>
         <Title title="Alchymistův učeň" subtitle="plně zážitková Tvrz">
             <SummaryTable
@@ -23,6 +25,10 @@ const IndexPage = () => (
         </Title>
         <Section name="about">
             <h1>Přijeď objevit svůj kámen mudrců</h1>
+        </Section>
+        <Section name="info">
+            <h1>Praktické informace</h1>
+            <Info />
         </Section>
         <Section name="register">
             <h1>Přihláška</h1>
