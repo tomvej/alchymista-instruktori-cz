@@ -15,7 +15,7 @@ const Footer = ({children, year, author}) => (
 
 Footer.propTypes = {
     children: PropTypes.node,
-    year: PropTypes.string.isRequired,
+    year: PropTypes.number.isRequired,
     author: PropTypes.string.isRequired,
 };
 
