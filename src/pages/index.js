@@ -2,11 +2,11 @@ import React from 'react';
 
 import './style.scss';
 
-import {SEO, Navbar, SummaryTable, Title, Section, Navlink} from '../components';
+import {SEO, Navbar, SummaryTable, Title, Section, Navlink, Background} from '../components';
 import {Faq, Info, RegisterForm} from '../containers';
 
 const IndexPage = () => (
-    <>
+    <Background>
         <SEO />
         <Navbar brand="Alchymistův učeň">
             <Navlink to="about">O akci</Navlink>
@@ -38,7 +38,7 @@ const IndexPage = () => (
             <h1>Často kladené otázky</h1>
             <Faq />
         </Section>
-    </>
+    </Background>
 );
 
 export default IndexPage;

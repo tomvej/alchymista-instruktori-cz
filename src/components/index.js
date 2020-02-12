@@ -14,3 +14,4 @@ export {default as ConsentArea} from './ConsentArea';
 export {default as Button} from './Button';
 export {default as Form} from './Form';
 export {default as SideBySide} from './SideBySide';
+export {default as Background} from './Background';

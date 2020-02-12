@@ -1,0 +1,9 @@
+$overlay: fade-out(#ffffff, .7);
+
+.main {
+    background-attachment: fixed;
+}
+
+:export {
+    gradient: linear-gradient($overlay, $overlay),
+}

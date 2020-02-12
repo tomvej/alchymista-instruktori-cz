@@ -26,3 +26,6 @@ yarn-error.log
 
 # graphql schema
 schema.graphql
+
+# additional resources
+resources
