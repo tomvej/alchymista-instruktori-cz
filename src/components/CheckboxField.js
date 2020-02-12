@@ -8,7 +8,7 @@ const CheckboxField = ({name, label}) => {
     const {input: {value, onChange, onBlur, onFocus}} = useField(name);
 
     return (
-        <div>
+        <div className={style.main}>
             <input
                 type="checkbox"
                 className={style.box}

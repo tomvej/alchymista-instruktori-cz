@@ -12,3 +12,5 @@ export {default as StringInput} from './StringInput';
 export {default as CheckboxField} from './CheckboxField';
 export {default as ConsentArea} from './ConsentArea';
 export {default as Button} from './Button';
+export {default as Form} from './Form';
+export {default as SideBySide} from './SideBySide';
