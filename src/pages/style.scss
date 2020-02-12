@@ -18,9 +18,20 @@ body {
 
     font-family: sans-serif;
     background-color: $color-background;
+    color: $color-text;
 }
 
 p {
     text-align: justify;
     hyphens: manual;
+}
+
+a {
+    text-decoration: none;
+    color: darken($color-primary, 20%);
+    font-weight: 800;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
 }
