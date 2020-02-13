@@ -25,7 +25,6 @@
     "gatsby-transformer-sharp": "2.3.13",
     "intersection-observer": "0.7.0",
     "invariant": "2.2.4",
-    "node-sass": "4.13.1",
     "normalize.css": "8.0.1",
     "prop-types": "15.7.2",
     "react": "16.12.0",
@@ -33,7 +32,8 @@
     "react-final-form": "6.3.5",
     "react-helmet": "5.2.1",
     "react-scroll": "1.7.16",
-    "rehype-react": "4.0.1"
+    "rehype-react": "4.0.1",
+    "sass": "1.25.0"
   },
   "devDependencies": {
     "eslint-config-airbnb": "18.0.1",

@@ -1,3 +1,5 @@
+const sass = require('sass');
+
 module.exports = {
     siteMetadata: {
         title: 'Alchymistův učeň',
@@ -42,7 +44,12 @@ module.exports = {
                 icon: 'src/images/squared-circle.svg',
             },
         },
-        'gatsby-plugin-sass',
+        {
+            resolve: 'gatsby-plugin-sass',
+            options: {
+                implementation: sass,
+            },
+        },
         {
             resolve: 'gatsby-transformer-remark',
             options: {
