@@ -2,18 +2,21 @@ import React from 'react';
 
 import './style.scss';
 
-import {SEO, Navbar, SummaryTable, Title, Section, Navlink, Background} from '../components';
+import {SEO, Navbar, SummaryTable, Title, Section, Background} from '../components';
 import {Faq, Footer, Info, RegisterForm} from '../containers';
 
 const IndexPage = () => (
     <Background>
         <SEO />
-        <Navbar brand="Alchymistův učeň">
-            <Navlink to="about">O akci</Navlink>
-            <Navlink to="info">Informace</Navlink>
-            <Navlink to="register">Prihláška</Navlink>
-            <Navlink to="faq">FAQ</Navlink>
-        </Navbar>
+        <Navbar
+            brand="Alchymistův učeň"
+            navlinks={{
+                about: 'O akci',
+                info: 'Informace',
+                register: 'Přihláška',
+                faq: 'FAQ',
+            }}
+        />
         <Title title="Alchymistův učeň" subtitle="plně zážitková Tvrz">
             <SummaryTable
                 actionLink="register"

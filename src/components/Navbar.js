@@ -8,8 +8,9 @@ import ResponsiveContainer from './ResponsiveContainer';
 import {useNavbarContext} from './navbarContext';
 
 import style from './Navbar.module.scss';
+import ScrollLink from './ScrollLink';
 
-const Navbar = ({brand, children}) => {
+const Navbar = ({brand, children, navlinks}) => {
     const {setHeight, shrunk} = useNavbarContext();
     const [menuVisible, setMenuVisible] = useState(false);
     const [menuHeight, setMenuHeight] = useState(0);
@@ -25,14 +26,14 @@ const Navbar = ({brand, children}) => {
             <ResponsiveContainer className={style.container}>
                 <a
                     href="#top"
-                    className={style.brand}
+                    className={classnames(style.brand, style.link)}
                 >
                     {brand}
                 </a>
                 <button
                     type="button"
                     aria-label="Menu"
-                    className={style.toggle}
+                    className={classnames(style.toggle, style.link)}
                     onClick={toggleMenu}
                 >
                     <FAIcon icon={faBars} />
@@ -42,6 +43,19 @@ const Navbar = ({brand, children}) => {
                     style={menuVisible ? {maxHeight: menuHeight} : {}}
                     ref={setMenuRef}
                 >
+                    {Object.entries(navlinks).map(([to, label]) => (
+                        <li className={style.navItem}>
+                            <ScrollLink
+                                spy
+                                hashSpy
+                                to={to}
+                                className={classnames(style.navLink, style.link)}
+                                activeClass={style.active}
+                            >
+                                {label}
+                            </ScrollLink>
+                        </li>
+                    ))}
                     {children}
                 </ul>
             </ResponsiveContainer>
@@ -52,11 +66,13 @@ const Navbar = ({brand, children}) => {
 Navbar.propTypes = {
     brand: PropTypes.node,
     children: PropTypes.node,
+    navlinks: PropTypes.objectOf(PropTypes.string.isRequired),
 };
 
 Navbar.defaultProps = {
     brand: null,
     children: null,
+    navlinks: {},
 };
 
 export default Navbar;

@@ -35,9 +35,23 @@ $background: $color-text;
 .toggle {
     display: none;
 
+    border: 1px solid $color-primary;
+    font-size: 1.2em;
+    margin: .3rem;
+    width: 2em;
+    height: 2em;
+    box-sizing: border-box;
+    border-radius: .3rem;
+
     @include md {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+}
+
+.toggle:hover, .toggle:focus {
+    border-color: lighten($color-primary, 20%);
 }
 
 .menu {
@@ -61,4 +75,37 @@ $background: $color-text;
     @include md {
         max-height: 0;
     }
+}
+
+.navItem {
+    display: flex;
+}
+
+.link {
+    color: $color-primary;
+    transition: opacity .5s ease;
+}
+
+.link:hover, .link:focus {
+    color: lighten($color-primary, 20%);
+    text-decoration: none;
+}
+
+.shrunk .link {
+    opacity: .7;
+
+    @include md {
+        opacity: 1;
+    }
+}
+
+.navLink {
+    width: 100%;
+
+    padding: 1rem 1rem .75rem;
+    border-bottom: .25rem solid transparent;
+}
+
+.active {
+    border-color: $color-primary;
 }
