@@ -22,30 +22,28 @@ const Navbar = ({brand, children}) => {
             className={classnames(style.main, {[style.shrunk]: shrunk})}
             ref={setNavbarRef}
         >
-            <ResponsiveContainer>
-                <div className={style.container}>
-                    <a
-                        href="#top"
-                        className={style.brand}
-                    >
-                        {brand}
-                    </a>
-                    <button
-                        type="button"
-                        aria-label="Menu"
-                        className={style.toggle}
-                        onClick={toggleMenu}
-                    >
-                        <FAIcon icon={faBars} />
-                    </button>
-                    <ul
-                        className={classnames(style.menu, {[style.menuHidden]: !menuVisible})}
-                        style={menuVisible ? {maxHeight: menuHeight} : {}}
-                        ref={setMenuRef}
-                    >
-                        {children}
-                    </ul>
-                </div>
+            <ResponsiveContainer className={style.container}>
+                <a
+                    href="#top"
+                    className={style.brand}
+                >
+                    {brand}
+                </a>
+                <button
+                    type="button"
+                    aria-label="Menu"
+                    className={style.toggle}
+                    onClick={toggleMenu}
+                >
+                    <FAIcon icon={faBars} />
+                </button>
+                <ul
+                    className={classnames(style.menu, {[style.menuHidden]: !menuVisible})}
+                    style={menuVisible ? {maxHeight: menuHeight} : {}}
+                    ref={setMenuRef}
+                >
+                    {children}
+                </ul>
             </ResponsiveContainer>
         </nav>
     );

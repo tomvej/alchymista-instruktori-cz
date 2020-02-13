@@ -1,20 +1,23 @@
 @import "../media";
 @import "../variables";
 
+$background: $color-text;
+
 .main {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: $z-index-fixed;
 
-    background-color: cornflowerblue; //FIXME
+    background-color: $background;
+    transition: background-color .5s ease;
 }
 
 .shrunk {
     background-color: transparent;
 
     @include md {
-        background-color: cornflowerblue; //FIXME
+        background-color: $background;
     }
 }
 
@@ -25,7 +28,8 @@
 }
 
 .brand {
-
+    font-size: 1.1em;
+    padding: 0.8rem;
 }
 
 .toggle {
@@ -54,5 +58,7 @@
 }
 
 .menuHidden {
-    max-height: 0;
+    @include md {
+        max-height: 0;
+    }
 }

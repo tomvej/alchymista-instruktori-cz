@@ -11,6 +11,7 @@ const Navlink = ({to, children}) => (
             hashSpy
             to={to}
             className={style.link}
+            activeClass={style.active}
         >
             {children}
         </ScrollLink>
