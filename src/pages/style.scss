@@ -1,4 +1,4 @@
-@import "~normalize.css";
+@import "~normalize.css/normalize.css";
 @import "../variables";
 
 button {
@@ -22,8 +22,6 @@ button {
 }
 
 body {
-    margin: 0;
-
     font-family: sans-serif;
     background-color: $color-background;
     color: $color-text;
