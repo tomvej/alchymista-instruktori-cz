@@ -10,7 +10,7 @@ const DropdownAnimation = ({children, visible, tag: Tag, className}) => {
     return (
         <Tag
             ref={setDropdownRef}
-            className={classnames(style.main, className, {[style.hidden]: !visible})}
+            className={classnames(style.main, className)}
             style={{maxHeight: visible ? height : 0}}
         >
             {children}
