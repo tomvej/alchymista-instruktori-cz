@@ -5,7 +5,7 @@ import {noop} from '../utils';
 
 import inputStyle from './StringInput.module.scss';
 
-const StringInput = ({name, value, onChange, onBlur, onFocus, placeholder, invalid, area}) => {
+const StringInput = ({name, value, onChange, onBlur, onFocus, placeholder, invalid, area, disabled}) => {
     const Tag = area ? 'textarea' : 'input';
     return (
         <Tag
@@ -20,6 +20,7 @@ const StringInput = ({name, value, onChange, onBlur, onFocus, placeholder, inval
             onBlur={onBlur}
             onFocus={onFocus}
             placeholder={placeholder}
+            disabled={disabled}
         />
     );
 };
@@ -33,6 +34,7 @@ StringInput.propTypes = {
     placeholder: PropTypes.string,
     invalid: PropTypes.bool,
     area: PropTypes.bool,
+    disabled: PropTypes.bool,
 };
 
 StringInput.defaultProps = {
@@ -41,6 +43,7 @@ StringInput.defaultProps = {
     placeholder: '',
     invalid: false,
     area: false,
+    disabled: false,
 };
 
 export default StringInput;

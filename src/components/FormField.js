@@ -6,13 +6,13 @@ import {composeValidations} from '../utils';
 import style from './FormField.module.scss';
 
 const FormField = ({name, label, component: Component, validate, ...props}) => {
-    const {input, meta: {touched, error}} = useField(name, {validate: composeValidations(validate)});
+    const {input, meta: {touched, error, submitSucceeded}} = useField(name, {validate: composeValidations(validate)});
     const showError = error && touched;
 
     return (
         <div className={style.main}>
             {label && <label htmlFor={name} className={style.label}>{label}</label>}
-            <Component {...props} {...input} invalid={showError} />
+            <Component {...props} {...input} invalid={showError} disabled={submitSucceeded} />
             {showError && <div className={style.error}>{error}</div>}
         </div>
     );
