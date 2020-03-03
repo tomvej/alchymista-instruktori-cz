@@ -11,42 +11,27 @@
 
 .label {
     font-size: 1.2em;
-
-    position: relative;
-    padding-left: 1.25em;
+    display: flex;
     cursor: pointer;
+
+    align-items: baseline;
 }
 
-.label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-
+.checkMark {
     width: 1em;
     height: 1em;
     border: 1px solid $color-input-border;
     border-radius: .2rem;
+    margin: .2rem;
     background-color: $color-input-background;
 }
 
-.box:focus + .label:before,
-.label:hover:before {
+.main:hover .checkMark,
+.box:focus + .label .checkMark {
     border-color: $color-input-border-active;
     box-shadow: $shadow-input-active;
 }
 
-.label:after { //FIXME
-    content: '';
-    position: absolute;
-    top: calc(.2em + 1px);
-    left: calc(.2em + 1px);
-    width: .6em;
-    height: .6em;
-    background-color: #333333;
-    border-radius: .1rem;
-}
-
-.box:not(:checked) + .label:after {
-    display: none;
+.box:not(:checked) + .label .checkMark {
+    color: $color-input-background;
 }

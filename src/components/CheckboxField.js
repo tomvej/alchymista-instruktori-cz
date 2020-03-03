@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {useField} from 'react-final-form';
+import {FontAwesomeIcon as FAIcon} from '@fortawesome/react-fontawesome';
+import {faCheck} from '@fortawesome/free-solid-svg-icons';
 
 import style from './CheckboxField.module.scss';
 
@@ -18,7 +20,12 @@ const CheckboxField = ({name, label}) => {
                 onBlur={onBlur}
                 onFocus={onFocus}
             />
-            <label htmlFor={name} className={style.label}>{label}</label>
+            <label htmlFor={name} className={style.label}>
+                <div className={style.checkMark}>
+                    <FAIcon icon={faCheck} />
+                </div>
+                {label}
+            </label>
         </div>
     );
 };
