@@ -28,5 +28,6 @@
 }
 
 .area {
-    height: 8em;
+    min-height: 8em;
+    resize: vertical;
 }
