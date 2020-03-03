@@ -40,15 +40,3 @@ $mask: #000000;
         font-size: 3em;
     }
 }
-
-.subtitle {
-    color: black;
-    text-shadow: .2rem .2rem fade-out(white, .7);
-
-    font-size: 2em;
-    margin: 0 0 1rem 0;
-
-    @include sm {
-        font-size: 1.5em;
-    }
-}

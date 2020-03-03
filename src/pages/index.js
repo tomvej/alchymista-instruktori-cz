@@ -17,7 +17,7 @@ const IndexPage = () => (
                 faq: 'FAQ',
             }}
         />
-        <Title title="Alchymistův učeň" subtitle="plně zážitková Tvrz">
+        <Title title="Alchymistův učeň">
             <SummaryTable
                 actionLink="register"
                 actionText="Přihlásit se"
