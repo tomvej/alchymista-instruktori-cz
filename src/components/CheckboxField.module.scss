@@ -26,7 +26,7 @@
     background-color: $color-input-background;
 }
 
-.main:hover .checkMark,
+.main:hover .box:not(:disabled) + .checkMark,
 .box:focus + .label .checkMark {
     border-color: $color-input-border-active;
     box-shadow: $shadow-input-active;
@@ -34,4 +34,12 @@
 
 .box:not(:checked) + .label .checkMark {
     color: $color-input-background;
+}
+
+.box:disabled + .label {
+    cursor: not-allowed;
+}
+
+.box:disabled + .label .checkMark {
+    background-color: $color-input-disabled;
 }

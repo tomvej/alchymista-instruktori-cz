@@ -31,3 +31,8 @@
     min-height: 8em;
     resize: vertical;
 }
+
+.main:disabled {
+    cursor: not-allowed;
+    background-color: $color-input-disabled;
+}
