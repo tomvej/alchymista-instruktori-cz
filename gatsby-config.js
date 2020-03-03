@@ -7,11 +7,12 @@ module.exports = {
         author: 'Tvrz',
         lang: 'cs',
         year: 2020,
+        formAction: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJFAgRYXMRshSbqp5p_1Vwu7Wuye8VDzxMo8OwHM9cxWRHjA/formResponse',
         formFields: {
-            name: 'name',
-            email: 'email',
-            message: 'message',
-            photoConsent: 'consent',
+            name: 'entry.1528101418',
+            email: 'entry.64509220',
+            message: 'entry.1336304104',
+            photoConsent: 'entry.826063302',
         },
     },
     plugins: [

@@ -2,17 +2,18 @@ import React from 'react';
 import {Form as FinalForm} from 'react-final-form';
 import {useStaticQuery, graphql} from 'gatsby';
 import {Button, CheckboxField, ConsentArea, FormField, StringInput, Form, SideBySide} from '../components';
-import {required, validEmail, renderMarkdown} from '../utils';
+import {required, validEmail, renderMarkdown, submitForm} from '../utils';
 
 export default () => {
     const {
-        site: {siteMetadata: {formFields: {name, email, message, photoConsent}}},
+        site: {siteMetadata: {formAction, formFields: {name, email, message, photoConsent}}},
         consentText: {childMarkdownRemark: {htmlAst: consentAst}},
-        registerText: {childMarkdownRemark: {htmlAst: registerAst}}
+        registerText: {childMarkdownRemark: {htmlAst: registerAst}},
     } = useStaticQuery(graphql`
         query {
             site {
                 siteMetadata {
+                    formAction
                     formFields {
                         name
                         email
@@ -38,8 +39,13 @@ export default () => {
         <>
             {renderMarkdown(registerAst)}
             <FinalForm
-                onSubmit={(values) => console.log(values)}
-                initialValues={{[photoConsent]: true}}
+                onSubmit={(values) => submitForm(formAction, {
+                    [name]: values.name,
+                    [email]: values.email,
+                    [message]: values.message,
+                    [photoConsent]: values.photoConsent,
+                })}
+                initialValues={{photoConsent: true}}
             >
                 {({handleSubmit, valid}) => (
                     <Form onSubmit={handleSubmit}>
@@ -48,7 +54,7 @@ export default () => {
                                 <FormField
                                     label="Jméno a příjmení"
                                     placeholder="Tvoje jméno"
-                                    name={name}
+                                    name="name"
                                     validate={[required]}
                                     component={StringInput}
                                 />
@@ -57,20 +63,20 @@ export default () => {
                                 <FormField
                                     label="E-mail"
                                     placeholder="Tvůj e-mail"
-                                    name={email}
+                                    name="email"
                                     validate={[required, validEmail]}
                                     component={StringInput}
                                 />
                             )}
                         />
                         <FormField
-                            name={message}
+                            name="message"
                             placeholder="Chceš nám něco vzkázat?"
                             component={StringInput}
                             area
                         />
                         <CheckboxField
-                            name={photoConsent}
+                            name="photoConsent"
                             label="Uděluji souhlas s focením"
                         />
                         <ConsentArea>

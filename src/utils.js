@@ -2,6 +2,7 @@ import RehypeReact from 'rehype-react';
 import React, {createElement, Fragment} from 'react';
 import classnames from 'classnames';
 import emailValidator from 'email-validator';
+import queryString from 'query-string';
 
 export const noop = () => {};
 
@@ -24,3 +25,13 @@ export const composeValidations = (validations) => (value) => validations
 export const styled = (style, Tag) => ({className, ...props}) => (
     <Tag {...props} className={classnames(style, className)} />
 );
+
+const CORS_URL = 'https://cors-anywhere.herokuapp.com/';
+
+export const submitForm = (action, values) => fetch(`${CORS_URL}${action}`, {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: queryString.stringify(values),
+});
