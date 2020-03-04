@@ -13,6 +13,12 @@ $mask: #000000;
     mask-image: linear-gradient(#{fade-out($mask, 0)} 0%, #{fade-out($mask, 0)} 75%, fade-out($mask, 1) 100%);
 }
 
+$overlay-color: fade-out($color-background, 0.9);
+
+:export {
+    overlay: linear-gradient($overlay-color 0%, $overlay-color 100%);
+}
+
 .container {
     display: flex;
     flex-direction: column;

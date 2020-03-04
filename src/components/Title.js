@@ -23,7 +23,7 @@ const Title = ({title, children}) => {
     return (
         <BackgroundImage
             Tag="header"
-            fluid={fluid}
+            fluid={[style.overlay, fluid]}
             className={style.main}
         >
             <ResponsiveContainer className={style.container}>
