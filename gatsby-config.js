@@ -3,10 +3,15 @@ const sass = require('sass');
 module.exports = {
     siteMetadata: {
         title: 'Alchymistův učeň',
-        description: 'Plně zážitková Tvrz',
+        description: 'Při­jeď hle­dat to, co tě ve tvém ži­vo­tě na­pl­ňu­je – svůj ká­men mudr­ců.',
         author: 'Tvrz',
         lang: 'cs',
         year: 2020,
+        basicInfo: [
+            {label: 'Věk', value: '18+'},
+            {label: 'Termín', value: '14.\u201323. 8. 2020'},
+            {label: 'Cena', value: 'od 4500 Kč'},
+        ],
         formAction: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJFAgRYXMRshSbqp5p_1Vwu7Wuye8VDzxMo8OwHM9cxWRHjA/formResponse',
         formFields: {
             name: 'entry.1528101418',

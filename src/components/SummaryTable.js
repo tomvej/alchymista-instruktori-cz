@@ -9,11 +9,11 @@ import style from './SummaryTable.module.scss';
 
 const SummaryTable = ({items, actionLink, actionText}) => (
     <dl className={style.main}>
-        {Object.entries(items).map(([label, content]) => (
+        {items.map(({label, value}) => (
             <div className={style.itemWrapper} key={label}>
                 <div className={style.item}>
                     <dt className={style.label}>{label}</dt>
-                    <dd className={style.content}>{content}</dd>
+                    <dd className={style.content}>{value}</dd>
                 </div>
             </div>
         ))}
@@ -22,13 +22,16 @@ const SummaryTable = ({items, actionLink, actionText}) => (
 );
 
 SummaryTable.propTypes = {
-    items: PropTypes.objectOf(PropTypes.string.isRequired),
+    items: PropTypes.arrayOf(PropTypes.shape({
+        label: PropTypes.string.isRequired,
+        value: PropTypes.string.isRequired,
+    }).isRequired),
     actionLink: PropTypes.string.isRequired,
     actionText: PropTypes.string.isRequired,
 };
 
 SummaryTable.defaultProps = {
-    items: {},
+    items: [],
 };
 
 export default SummaryTable;
