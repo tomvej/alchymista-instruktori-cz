@@ -44,7 +44,7 @@ const Navbar = ({brand, children, navlinks}) => {
                     ref={setMenuRef}
                 >
                     {Object.entries(navlinks).map(([to, label]) => (
-                        <li className={style.navItem}>
+                        <li key={to} className={style.navItem}>
                             <ScrollLink
                                 spy
                                 hashSpy
