@@ -6,6 +6,10 @@ const renderMarkdown = createMarkdownRenderer({
     p: 'li',
 });
 
+const renderNodes = (children) => renderMarkdown({type: 'root', children});
+
+const isTitle = ({type, tagName}) => type === 'element' && tagName === 'h1';
+
 export default () => {
     const {fragments: {childMarkdownRemark: {htmlAst}}} = useStaticQuery(graphql`
         query {
@@ -17,9 +21,14 @@ export default () => {
         }
     `);
 
+    const {children: childNodes} = htmlAst;
+
     return (
-        <ul>
-            {renderMarkdown(htmlAst)}
-        </ul>
+        <>
+            {renderMarkdown(childNodes.find(isTitle))}
+            <ul>
+                {renderNodes(childNodes.filter((node) => !isTitle(node)))}
+            </ul>
+        </>
     );
 };

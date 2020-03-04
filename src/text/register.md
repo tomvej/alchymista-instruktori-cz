@@ -1,3 +1,5 @@
+Přihláška
+=========
 1. Vyplň a odešli formulář dole.
 2. Přijde ti dotazník, ve kterém se tě zeptáme … na co se zeptáme?
 3. Až od tebe dostaneme vyplněný dotazník, rozhodneme se, jestli tě na kurz vezmeme. Dáme ti vědět do 14 dnů od obdržení dotazníku.

@@ -33,15 +33,12 @@ const IndexPage = () => (
             <Fragments />
         </Section>
         <Section name="info">
-            <h1>Praktické informace</h1>
             <Info />
         </Section>
         <Section name="register">
-            <h1>Přihláška</h1>
             <RegisterForm />
         </Section>
         <Section name="faq">
-            <h1>Často kladené otázky</h1>
             <Faq />
         </Section>
         <Footer />

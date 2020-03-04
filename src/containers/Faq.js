@@ -5,7 +5,7 @@ import {FaqContainer, FaqItem} from '../components';
 
 const renderNodes = (children) => renderMarkdown({type: 'root', children});
 
-const isHeading = ({type, tagName}) => type === 'element' && tagName === 'h1';
+const isHeading = ({type, tagName}) => type === 'element' && tagName === 'h2';
 
 export default () => {
     const {faq: {childMarkdownRemark: {htmlAst}}} = useStaticQuery(graphql`

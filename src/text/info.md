@@ -1,3 +1,6 @@
+Praktické informace
+===================
+
 Kdy to bude?
 ------------
 14.–23. 8. 2020 Alchymistův učeň trvá 9 dní, začíná v pátek vpodvečer, končí v neděli odpoledne.
