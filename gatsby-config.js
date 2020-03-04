@@ -5,6 +5,7 @@ module.exports = {
         title: 'Alchymistův učeň',
         description: 'Při­jeď hle­dat to, co tě ve tvém ži­vo­tě na­pl­ňu­je – svůj ká­men mudr­ců.',
         author: 'Tvrz',
+        contact: 'alchymista@instruktori.cz',
         lang: 'cs',
         year: 2020,
         basicInfo: [

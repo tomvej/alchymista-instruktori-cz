@@ -3,6 +3,7 @@ import {Form as FinalForm} from 'react-final-form';
 import {useStaticQuery, graphql} from 'gatsby';
 import {Button, CheckboxField, ConsentArea, FormField, StringInput, Form, SideBySide, Box} from '../components';
 import {required, validEmail, renderMarkdown, submitForm} from '../utils';
+import SubmitError from './SubmitError';
 
 export default () => {
     const {
@@ -47,7 +48,7 @@ export default () => {
                 })}
                 initialValues={{photoConsent: true}}
             >
-                {({handleSubmit, valid, submitSucceeded}) => (
+                {({handleSubmit, valid, submitSucceeded, submitFailed}) => (
                     <Form onSubmit={handleSubmit}>
                         <SideBySide
                             left={(
@@ -82,6 +83,7 @@ export default () => {
                         <ConsentArea>
                             {renderMarkdown(consentAst)}
                         </ConsentArea>
+                        {submitFailed && <SubmitError />}
                         {submitSucceeded || <Button submit disabled={!valid}>Přihlásit se</Button>}
                         {submitSucceeded && <Box>Díky za tvou přihlášku. Co nevidět se ti ozveme.</Box>}
                     </Form>
