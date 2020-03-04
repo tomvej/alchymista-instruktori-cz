@@ -3,7 +3,7 @@ import React from 'react';
 import './style.scss';
 
 import {SEO, Navbar, SummaryTable, Title, Section, Background} from '../components';
-import {About, Faq, Footer, Info, RegisterForm} from '../containers';
+import {About, Faq, Footer, Fragments, Info, RegisterForm} from '../containers';
 
 const IndexPage = () => (
     <Background>
@@ -30,6 +30,7 @@ const IndexPage = () => (
         </Title>
         <Section name="about">
             <About />
+            <Fragments />
         </Section>
         <Section name="info">
             <h1>Praktické informace</h1>
