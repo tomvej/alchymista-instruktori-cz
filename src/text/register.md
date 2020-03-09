@@ -1,8 +1,8 @@
 Přihláška
 =========
 1. Vyplň a odešli formulář dole.
-2. Přijde ti dotazník, ve kterém se tě zeptáme … na co se zeptáme?
-3. Až od tebe dostaneme vyplněný dotazník, rozhodneme se, jestli tě na kurz vezmeme. Dáme ti vědět do 14 dnů od obdržení dotazníku.
-4. Pošleme ti platební údaje. Teprve po tom, co nám zaplatíš, s tebou počítáme.
+2. Obratem ti pošleme dotazník, ve kterém nám o sobě řekneš něco více. Bude nás zajímat například tvoje motivace jet nebo očekávání.
+3. Vyplněný dotazník si přečteme a do 14 dnů ti potvrdíme, že tě na kurz bereme.
+4. Pošleme ti platební údaje. **Počítáme s tebou až poté, co nám zaplatíš!**
 
-Může se stát, že tě na základě dotazníku na kurz nevezmeme, například pro to, že od něj očekáváš něco, co ti nemůže dát. V takovém případě tě rádi uvidíme na jiných akcích Instruktorů Brno.
+Účastníky vybíráme na základě dotazníku, může se tedy stát, že tě na kurz nevezmeme, například proto, že od něj očekáváš něco, co ti nemůže dát. V takovém případě tě rádi uvidíme na jiných akcích Instruktorů Brno.

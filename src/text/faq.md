@@ -22,6 +22,18 @@ a odpočinout si.
 
 Žádáme tě, abys svůj telefon po dobu akce nepopužíval/a. Dej tomu šanci a vyzkoušej to. A nebo pro tebe možná Alchymistův učeň není vhodný typ akce.
 
+## Potřebuju být na telefonu kvůli práce, rodině, …
+Chápeme, že v dnešní době si všichni nemůžou dovolit jen tak na týden zcela zmizet.
+
+Mobilní telefony nám na akci vadí, protože ruší: Představ si, že jsou všichni zabraní do hry a najednou někomu začne zvonit telefon.
+O programu s hutnou atmosférou ani nemluvě. Kromě toho nezapadají do středověké vesničky.
+
+Trochu hlubší důvod je ten, že chceme, abyste se na akci zastavili a zamysleli, podívali se na věci z trochu jiné perspektivy.
+Čemuž nepomůže, pokud budeš řešit, co se děje doma, v práci nebo někde jinde.
+
+Samozřejmě, pokud to bude nezbytně nutné, budeš mít prostor na to jednou nebo dvakrát denně zkontrolovat telefon
+a případně si někde stranou zavolat. Jaký pak pro tebe bude mít akce přínos necháme na tobě.
+
 ## Nevím, jestli chci ve svém volném čase jet někam pracovat …
 Rozumíme, že fyzická práce nemusí úplně odpovídat představě dobře stráveného volného času. Nám k akci tematicky sedí.
 Jednak pro nás ke středověku patří, jednak na ni budeme zkoumat náš vztah k tomu, co děláme.
