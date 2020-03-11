@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
 import {useStaticQuery, graphql} from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 
@@ -24,7 +25,7 @@ const Title = ({title, children}) => {
         <BackgroundImage
             Tag="header"
             fluid={[style.overlay, fluid]}
-            className={style.main}
+            className={classnames(style.main, style.image)}
         >
             <ResponsiveContainer className={style.container}>
                 <h1 className={style.title}>{title}</h1>

@@ -1,6 +1,6 @@
 $overlay: fade-out(#ffffff, .7);
 
-.main {
+.main, .main:after, .main:before {
     background-attachment: fixed;
 }
 

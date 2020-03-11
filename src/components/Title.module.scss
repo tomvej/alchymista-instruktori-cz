@@ -10,6 +10,9 @@ $mask: #000000;
         height: auto;
         padding: 15rem 0;
     }
+}
+
+.image .image:after, .image:before {
     mask-image: linear-gradient(#{fade-out($mask, 0)} 0%, #{fade-out($mask, 0)} 75%, fade-out($mask, 1) 100%);
 }
 
