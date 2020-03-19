@@ -1,7 +1,7 @@
 Často kladené dotazy
 ====================
 
-## Co když na kurzu nikoho neznám?
+## Co když na akci nikoho neznám?
 To je v pořádku a trochu počítáme s tím, že se účastníci na začátku mezi sebou znát nebudou. Dáme ti dost příležitostí
 na to se s ostatními seznámit, ať už při aktivitách, které na to jsou přímo zaměřené, nebo společné práci, jídle a zpívání u ohně.
 
@@ -62,7 +62,7 @@ V případě, že z nějakého důvodu – i zdravotního – zrušíš svou ú�
 * do 4. 8. včetně 50 % tvého účastnického poplatku,
 * do 13. 8. včetně 10 % tvého účastnického poplatku.
 
-V případě, že kurz zrušíme my, vrátíme ti 100 % tvého účastnického poplatku.
+V případě, že akci zrušíme my, vrátíme ti 100 % tvého účastnického poplatku.
 
 ## Co když mi kostým nebude sedět?
 V dotazníku si od tebe vyžádáme tvé základní míry, takže se do kostýmu téměř jistě vejdeš. Možná ti bude trochu větší,

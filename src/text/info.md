@@ -11,14 +11,14 @@ Ve středověké vesničce u Zámku Rosice kousek od Brna.
 
 Středověká vesnička?
 --------------------
-Atmosféra je pro nás důležitá: Celý kurz se odehrává ve středověkých kulisách. Budeme chodit v kostýmech, žít v prostorách středověké vesničky a udržovat ji v chodu.
+Atmosféra je pro nás důležitá: Alchymistův učeň se odehrává ve středověkých kulisách. Budeme chodit v kostýmech, žít v prostorách středověké vesničky a udržovat ji v chodu.
 
 Nebudeme po tobě chtít, abys perfektně zahrál/a středověkého vesničana. Představ si to tak, že ses najednou propadl/a do minulosti, se všemi zkušenostmi, které máš.
 
 Nechceme si to taky dělat moc drsné. Nějaké práci se nevyhneme, ale nebudeme otročit od svítání do soumraku.
 Představ si to tak, že občas bude třeba naštípat dříví pro kuchyni nebo pomoct s opravou doškové střechy.
 
-Znamená to ale taky, že po tobě budeme chtít, abys na dobu kurzu odložil/a mobilní telefon.
+Znamená to ale taky, že po tobě budeme chtít, abys na dobu akci odložil/a mobilní telefon.
 
 Co spaní a hygiena?
 -------------------
@@ -29,7 +29,7 @@ vykoupat v teplé vodě. Pokud ti nevadí studená voda, můžeš se mýt i čas
 
 Pro koho to je?
 ---------------
-Na kurz můžeš jet, pokud ti bylo 18, nevadí ti trochu si zaběhat a při tom se zapotit, chceš potkat nové lidi a baví tě o věcech přemýšlet.
+Na akci můžeš jet, pokud ti bylo 18, nevadí ti trochu si zaběhat a při tom se zapotit, chceš potkat nové lidi a baví tě o věcech přemýšlet.
 
 Co budu potřebovat?
 -------------------
@@ -55,7 +55,7 @@ Pokud tě zajímá více, co všechno Rosicích děláme, podívej se na náš f
 
 Kolik za to zaplatím?
 ---------------------
-Cenu kurzu si volíš podle sebe mezi 4500 Kč a 5000 Kč. Pokud zaplatíš 5000 Kč, budeme moct více investovat do údržby a vylepšení vesničky, pokud zaplatíš 4500 Kč, je to taky zcela v pořádku.
+Cenu akce si volíš podle sebe mezi 4500 Kč a 5000 Kč. Pokud zaplatíš 5000 Kč, budeme moct více investovat do údržby a vylepšení vesničky, pokud zaplatíš 4500 Kč, je to taky zcela v pořádku.
 
 Z tvého účastnického poplatku ti zajistíme jídlo, ubytování, kostým, a různé věci potřebné pro programy, kterých se budeš účastnit, například materiál pro řemeslné výrobky nebo píci pro koně.
 
