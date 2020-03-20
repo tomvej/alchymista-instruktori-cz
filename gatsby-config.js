@@ -63,5 +63,15 @@ module.exports = {
                 plugins: ['remark-czech-preprocessor'],
             },
         },
+        {
+            resolve: 'gatsby-plugin-google-fonts',
+            options: {
+                fonts: [
+                    'Fondamento',
+                    'Livvic',
+                ],
+                display: 'swap',
+            },
+        },
     ],
 };

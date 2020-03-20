@@ -22,14 +22,32 @@ button {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Livvic', sans-serif;
+    font-size: 1.2em;
     background-color: $color-background;
     color: $color-text;
+}
+
+h1, h2 {
+    font-family: 'Fondamento', sans-serif;
+    margin-top: .5em;
+    margin-bottom: .2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Fondamento', sans-serif;
+    font-size: 1.2em;
 }
 
 p {
     text-align: justify;
     hyphens: manual;
+    margin-top: 0;
+    margin-bottom: .5em;
 }
 
 a {
