@@ -46,10 +46,10 @@ const IndexPage = () => {
             <Section name="info">
                 <Info />
             </Section>
-            <Section name="register">
+            <Section name="register" narrow>
                 <RegisterForm />
             </Section>
-            <Section name="faq">
+            <Section name="faq" narrow>
                 <Faq />
             </Section>
             <Footer />
