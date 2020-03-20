@@ -46,7 +46,7 @@ a slíbit, že si odvezeš svůj vlastní výrobek. Zbytek záleží na tvé ši
 
 Provozujeme několik řemesel (tkaní, navíjení korálků, tepání mědi, práci s kůží, kování železa), ze kterých si budeš moct vybrat.
 
-Jinak se řemeslům věnujeme i na jiných akcích, například Řemesla na Tvrzi rosické [odkaz].
+Jinak se řemeslům věnujeme i na jiných akcích, například [Řemesla na Tvrzi rosické](http://remesla.tvrz.net).
 
 ## Nemůžu jíst … Je to problém?
 Většinu běžných stravovacích omezení (bez masa, bez lepku, bez laktózy, …) jsme schopni zvládnout, když nám dáš předem vědět
@@ -55,7 +55,7 @@ Většinu běžných stravovacích omezení (bez masa, bez lepku, bez laktózy, 
 ## Co se stane, když nebudu souhlasit s focením?
 Dáme vědět fotografovi a pokud se i tak náhodou na nějaké fotce vyskytneš, na konci akce ji smažeme. Rozhodně tvoje fotky nebudeme zveřejňovat.
 
-## Jaké jsou strornopoplatky?
+## Jaké jsou stornopoplatky?
 V případě, že z nějakého důvodu – i zdravotního – zrušíš svou účast, vrátíme ti:
 
 * do 14. 7. včetně 70 % tvého účastnického poplatku
@@ -71,15 +71,16 @@ ale ve středověku snad jen panstvo mělo perfektně padnoucí oblečení, tak�
 Navíc, čím větší kostým, tím více se pod něj vejde teplých vrstev.
 
 ## Co když bude zima? Bude mi kostým stačit?
-Kostým je suknice, která sahá mužům po kolena a ženám až po kotníky [viz obrázek]. Je dostatečně volná,
-takže se pod ni vejdou dvě až tři vrstvy teplého oblečení.
+Kostým je suknice, která sahá mužům po kolena a ženám až po kotníky ([mužský](https://www.tvrz.net/img/odev/spodni2.jpg),
+[ženský](https://www.tvrz.net/img/odev/spodni1.png)). Je dostatečně volná, takže se pod ni vejdou dvě až tři vrstvy teplého oblečení.
 
 Kalhoty a boty budeš mít vlastní.
 
 ## Můžu si dovézt vlastní kostým?
 Jasně! Jen si dej pozor, aby nebyl moc zdobný nebo neměl luxusní doplňky. Budeš v roli prostého vesničana.
 
-Pokud kostým nemáš, můžeš si ho vyrobit. Podívej se na návod (mužský oděv a ženský oděv). Nevyžadujeme to ale po tobě, základní kostým dostaneš.
+Pokud kostým nemáš, můžeš si ho vyrobit. Podívej se na návod ([mužský oděv](https://www.tvrz.net/index.php?go=10), [ženský oděv](https://www.tvrz.net/index.php?go=9)).
+Nevyžadujeme to ale po tobě, základní kostým dostaneš.
 
 ## Slyšel/a jsem, že děláte zážitkovou pedagogiku. Co to znamená?
 Jak se člověk učí nejlépe? Něco si zažije a poučí se z toho. Například na výletě zmokne a vezme si z toho, že si má brát pláštěnku.
