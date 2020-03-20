@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import Image from './Image';
+import style from './TeamMember.module.scss';
 
 const TeamMember = ({title, children, civil, costume}) => (
-    <div>
-        <h2>{title}</h2>
-        {children}
-        <Image fluid={civil} />
-        <Image fluid={costume} />
+    <div className={style.main}>
+        <Image fluid={civil} className={style.image} />
+        <div className={style.text}>
+            <h2 className={style.title}>{title}</h2>
+            {children}
+        </div>
     </div>
 );
 

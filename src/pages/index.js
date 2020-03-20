@@ -53,7 +53,7 @@ const IndexPage = () => {
             <Section name="faq" narrow>
                 <Faq />
             </Section>
-            <Section name="team">
+            <Section name="team" narrow>
                 <Team />
             </Section>
             <Footer />
