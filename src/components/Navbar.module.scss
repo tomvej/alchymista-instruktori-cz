@@ -10,14 +10,16 @@ $background: $color-text;
     z-index: $z-index-fixed;
 
     background-color: $background;
-    transition: background-color .5s ease;
+    transition: opacity .5s ease;
+
+    font-family: "Fondamento", sans-serif;
 }
 
 .shrunk {
-    background-color: transparent;
+    opacity: 0;
 
     @include md {
-        background-color: $background;
+        opacity: 1;
     }
 }
 
