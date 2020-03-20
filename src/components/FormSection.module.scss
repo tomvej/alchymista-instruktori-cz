@@ -1,0 +1,14 @@
+@import "../variables";
+
+.main {
+    padding: 1rem;
+    border-radius: .5rem;
+
+    background-color: $color-form-background;
+    color: $color-form-text;
+    text-shadow: .1em .1em .1em $color-text;
+
+    a {
+        color: lighten($color-primary, 10%);
+    }
+}

@@ -1,7 +1,17 @@
 import React from 'react';
 import {Form as FinalForm} from 'react-final-form';
 import {useStaticQuery, graphql} from 'gatsby';
-import {Button, CheckboxField, ConsentArea, FormField, StringInput, Form, SideBySide, Box} from '../components';
+import {
+    Button,
+    CheckboxField,
+    ConsentArea,
+    FormField,
+    StringInput,
+    Form,
+    SideBySide,
+    Box,
+    FormSection,
+} from '../components';
 import {required, validEmail, renderMarkdown, submitForm} from '../utils';
 import SubmitError from './SubmitError';
 
@@ -37,7 +47,7 @@ export default () => {
     `);
 
     return (
-        <>
+        <FormSection>
             {renderMarkdown(registerAst)}
             <FinalForm
                 onSubmit={(values) => submitForm(formAction, {
@@ -89,6 +99,6 @@ export default () => {
                     </Form>
                 )}
             </FinalForm>
-        </>
+        </FormSection>
     );
 };
