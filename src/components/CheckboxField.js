@@ -23,7 +23,7 @@ const CheckboxField = ({name, label}) => {
             />
             <label htmlFor={name} className={style.label}>
                 <div className={style.checkMark}>
-                    <FAIcon icon={faCheck} />
+                    <FAIcon icon={faCheck} size="sm" />
                 </div>
                 {label}
             </label>
