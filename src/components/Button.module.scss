@@ -5,12 +5,13 @@
     background-color: $color-primary;
     border: 1px solid $color-primary;
     border-radius: .25rem;
+    color: $color-text;
 
     font-size: .8em;
     letter-spacing: .1em;
     padding: 1.25rem 2rem;
+    font-weight: bold;
 
-    color: unset; // FIXME
     text-decoration: none;
 }
 

@@ -6,6 +6,7 @@
     border: 1px solid $color-input-border;
     background-color: $color-input-background;
     margin: .2rem 0;
+    color: $color-text;
 }
 
 .main:focus {
@@ -20,11 +21,6 @@
 
 .invalid:focus {
     box-shadow: $shadow-input-error;
-}
-
-.errorIcon {
-    color: $color-error;
-    position: absolute;
 }
 
 .area {
