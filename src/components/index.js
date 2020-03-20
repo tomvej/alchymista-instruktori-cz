@@ -20,3 +20,4 @@ export {default as Alert} from './Alert';
 export {default as Image} from './Image';
 export {default as TwoColumn} from './TwoColumn';
 export {default as FormSection} from './FormSection';
+export {default as TeamMember} from './TeamMember';

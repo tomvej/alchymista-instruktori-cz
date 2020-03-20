@@ -37,6 +37,13 @@ module.exports = {
                 path: `${__dirname}/src/text`,
             },
         },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'team',
+                path: `${__dirname}/src/team`,
+            },
+        },
         'gatsby-transformer-sharp',
         'gatsby-plugin-sharp',
         {
