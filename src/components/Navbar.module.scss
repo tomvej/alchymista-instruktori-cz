@@ -12,7 +12,7 @@ $background: $color-text;
     background-color: $background;
     transition: opacity .5s ease;
 
-    font-family: "Fondamento", sans-serif;
+    font-family: $font-heading;
 }
 
 .shrunk {

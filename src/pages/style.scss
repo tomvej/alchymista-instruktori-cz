@@ -22,14 +22,14 @@ button {
 }
 
 body {
-    font-family: 'Livvic', sans-serif;
+    font-family: $font-normal;
     font-size: 1.2em;
     background-color: $color-background;
     color: $color-text;
 }
 
 h1, h2 {
-    font-family: 'Fondamento', sans-serif;
+    font-family: $font-heading;
     margin-top: .5em;
     margin-bottom: .2em;
 }
@@ -39,7 +39,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Fondamento', sans-serif;
     font-size: 1.2em;
 }
 
