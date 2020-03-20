@@ -1,6 +1,7 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
 import {renderMarkdown} from '../utils';
+import {TwoColumn} from '../components';
 
 const renderNodes = (children) => renderMarkdown({type: 'root', children});
 
@@ -18,9 +19,9 @@ export default () => {
     return (
         <>
             {renderMarkdown(childNodes[0])}
-            <div style={{columnCount: 2}}>
+            <TwoColumn>
                 {renderNodes(childNodes.slice(1))}
-            </div>
+            </TwoColumn>
         </>
     );
 };
