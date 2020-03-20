@@ -6,6 +6,14 @@
     flex: 1 1 0;
 }
 
+.image:not(:hover) .costume {
+    display: none;
+}
+
+.image:hover .civil {
+    display: none;
+}
+
 .text {
     flex: 2 1 0;
 }

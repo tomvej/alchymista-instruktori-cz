@@ -6,7 +6,10 @@ import style from './TeamMember.module.scss';
 
 const TeamMember = ({title, children, civil, costume}) => (
     <div className={style.main}>
-        <Image fluid={civil} className={style.image} />
+        <div className={style.image}>
+            <Image fluid={civil} className={style.civil} />
+            <Image fluid={costume} className={style.costume} />
+        </div>
         <div className={style.text}>
             <h2 className={style.title}>{title}</h2>
             {children}
