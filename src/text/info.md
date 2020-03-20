@@ -48,10 +48,10 @@ Kdo to pořádá?
 --------------
 Jsme dobrovolníci z organizace Instruktoři Brno. Všichni jsme součástí projektu Tvrz, který se točí kolem středověké vesničky v Rosicích.
 
-Kromě Alchymistova učně pořádáme například řemeslný workshop Řemesla na tvrzi Rosické [odkaz] nebo Tvrzičky, na kterých se scházíme
+Kromě Alchymistova učně pořádáme například řemeslný workshop [Řemesla na tvrzi Rosické](http://remesla.tvrz.net) nebo Tvrzičky, na kterých se scházíme
 a zkoušíme středověká řemesla a jiné činnosti (například 18. 7. budeme vařit pivo, přijeď se podívat).
 
-Pokud tě zajímá více, co všechno Rosicích děláme, podívej se na náš facebook [odkaz].
+Pokud tě zajímá více, co všechno Rosicích děláme, podívej se na [náš facebook](https://www.facebook.com/tvrz.net).
 
 Kolik za to zaplatím?
 ---------------------
@@ -63,4 +63,4 @@ Alchymistova učně pořádáme bez nároku na honorář, případné přebytky 
 
 Jel/jela bych, ale nejsem si jistý/jistá …
 ------------------------------------------
-Podívej se do sekce často kladených dotazů [odkaz]. A pokud ani tam nenajdeš odpověď na svou otázku, napiš nám [odkaz].
+Potřebuješ vědět více? Podívej se do sekce [často kladených dotazů](#faq). A pokud ani tam nenajdeš odpověď na svou otázku, [napiš nám](#contact).
