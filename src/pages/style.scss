@@ -59,3 +59,8 @@ a {
 a:hover, a:focus {
     text-decoration: underline;
 }
+
+ol, ul {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
