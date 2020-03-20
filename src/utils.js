@@ -6,6 +6,11 @@ import queryString from 'query-string';
 
 export const noop = () => {};
 
+export const preventDevault = (handler) => (event) => {
+    event.preventDefault();
+    handler(event);
+};
+
 export const createMarkdownRenderer = (components = {}) => new RehypeReact({
     createElement,
     Fragment,
