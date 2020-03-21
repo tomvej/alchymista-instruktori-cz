@@ -5,7 +5,7 @@
 
     text-transform: uppercase;
     background-color: $color-primary;
-    border: 1px solid $color-primary;
+    border: .1rem solid $color-primary;
     border-radius: .25rem;
     color: $color-text;
 
@@ -19,12 +19,12 @@
 
 .main:hover, .main:focus {
     background-color: saturate($color-primary, 15%);
-    border-color: saturate($color-primary, 15%);
+    text-decoration: none;
 }
 
 .outline {
     background-color: transparent;
-    color: $color-primary;
+    border-color: darken($color-primary, 10%);
 }
 
 .outline:hover, .outline:focus {
