@@ -1,6 +1,6 @@
 Často kladené dotazy
 ====================
-Chybí ti odpověď na nějakou tvou otázku? [Napiš nám!](#contact).
+Chybí ti odpověď na nějakou tvou otázku? [Napiš nám!](#contact)
 
 ## Co když na akci nikoho neznám?
 To je v pořádku a trochu počítáme s tím, že se účastníci na začátku mezi sebou znát nebudou. Dáme ti dost příležitostí
