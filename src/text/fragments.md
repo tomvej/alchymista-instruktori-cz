@@ -1,3 +1,7 @@
+---
+images: ["../images/tvrz09.jpg", "../images/tvrz12.jpg", "../images/tvrz15.jpg"]
+---
+
 Co všechno můžeš zažít
 ======================
 Hry, při kterých se pobavíš a možná i trochu zaběháš.
