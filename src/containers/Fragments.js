@@ -1,7 +1,7 @@
 import React from 'react';
 import {graphql, useStaticQuery} from 'gatsby';
 import {createMarkdownRenderer} from '../utils';
-import {FragmentList, Image, SideBySide} from '../components';
+import {FragmentList, TwoColumnGallery} from '../components';
 
 const renderMarkdown = createMarkdownRenderer({
     p: 'li',
@@ -32,24 +32,16 @@ export default () => {
     `);
 
     const fluidImages = images.map(({childImageSharp: {fluid}}) => fluid);
-
     const {children: childNodes} = htmlAst;
 
     return (
         <>
             {renderMarkdown(childNodes.find(isTitle))}
-            <SideBySide
-                left={(
-                    <FragmentList>
-                        {renderNodes(childNodes.filter((node) => !isTitle(node)))}
-                    </FragmentList>
-                )}
-                right={fluidImages.map((fluid) => (
-                    <div>
-                        <Image key={fluid.src} fluid={fluid} />
-                    </div>
-                ))}
-            />
+            <TwoColumnGallery images={fluidImages}>
+                <FragmentList>
+                    {renderNodes(childNodes.filter((node) => !isTitle(node)))}
+                </FragmentList>
+            </TwoColumnGallery>
         </>
     );
 };

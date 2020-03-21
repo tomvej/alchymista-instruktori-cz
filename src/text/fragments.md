@@ -1,5 +1,12 @@
 ---
-images: ["../images/tvrz09.jpg", "../images/tvrz12.jpg", "../images/tvrz15.jpg"]
+images: [
+    "domca.jpg",
+    "kovar.jpg",
+    "uvohna.jpg",
+    "uprk.jpg",
+    "princezna.jpg",
+]
+
 ---
 
 Co všechno můžeš zažít
@@ -20,7 +27,7 @@ Večerní ohně.
 
 Hledání svého Velkého díla.
 
-Pana purkrabího, písaře, kata, kováře, alchymistu, hubatou kuchařku
+Pana purkrabího, písaře, kata, kováře, alchymistu, hubatou kuchařku.
 
 Sdílení zkušeností a názorů.
 

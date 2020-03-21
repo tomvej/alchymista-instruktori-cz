@@ -23,3 +23,4 @@ export {default as FormSection} from './FormSection';
 export {default as TeamMember} from './TeamMember';
 export {default as Center} from './Center';
 export {default as FragmentList} from './FragmentList';
+export {default as TwoColumnGallery} from './TwoColumnGallery';
