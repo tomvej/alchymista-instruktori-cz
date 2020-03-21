@@ -6,19 +6,15 @@ import {TeamMember} from '../components';
 export default () => {
     const {team: {edges}} = useStaticQuery(graphql`
         query {
-            team: allMarkdownRemark(filter: {fileAbsolutePath: {glob: "**/team/*.md"}}) {
+            team: allMarkdownRemark(
+                filter: {fileAbsolutePath: {glob: "**/team/*.md"}}
+                sort: {fields: [frontmatter___order]}
+            ) {
                 edges {
                     node {
                         frontmatter {
                             name
-                            civil {
-                                childImageSharp {
-                                    fluid(maxWidth: 500) {
-                                        ...GatsbyImageSharpFluid
-                                    }
-                                }
-                            }
-                            costume {
+                            photo {
                                 childImageSharp {
                                     fluid(maxWidth: 500) {
                                         ...GatsbyImageSharpFluid
@@ -36,11 +32,10 @@ export default () => {
     return (
         <>
             <h1>Tým</h1>
-            {edges.map(({node: {htmlAst, frontmatter: {name, civil, costume}}}) => (
+            {edges.map(({node: {htmlAst, frontmatter: {name, photo,}}}) => (
                 <TeamMember
                     title={name}
-                    civil={civil.childImageSharp.fluid}
-                    costume={costume.childImageSharp.fluid}
+                    image={photo.childImageSharp.fluid}
                 >
                     {renderMarkdown(htmlAst)}
                 </TeamMember>

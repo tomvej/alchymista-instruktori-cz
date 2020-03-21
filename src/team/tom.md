@@ -1,7 +1,7 @@
 ---
 name: "Tomáš"
-civil: "tom-civil.jpg"
-costume: "tom-costume.jpg"
+photo: "tom-costume.jpg"
+order: 5
 ---
 
 Na akci mě potkáš v roli mistra sedláře: zabývám se výrobou opasků, brašen, tašvic

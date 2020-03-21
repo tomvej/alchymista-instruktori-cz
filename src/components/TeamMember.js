@@ -4,12 +4,9 @@ import PropTypes from 'prop-types';
 import Image from './Image';
 import style from './TeamMember.module.scss';
 
-const TeamMember = ({title, children, civil, costume}) => (
+const TeamMember = ({title, children, image}) => (
     <div className={style.main}>
-        <div className={style.image}>
-            <Image fluid={civil} className={style.civil} />
-            <Image fluid={costume} className={style.costume} />
-        </div>
+        <Image fluid={image} className={style.image} />
         <div className={style.text}>
             <h2 className={style.title}>{title}</h2>
             {children}
@@ -20,8 +17,7 @@ const TeamMember = ({title, children, civil, costume}) => (
 TeamMember.propTypes = {
     title: PropTypes.string.isRequired,
     children: PropTypes.node,
-    civil: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
-    costume: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
+    image: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
 };
 
 TeamMember.defaultProps = {
