@@ -6,7 +6,16 @@ import style from './TeamMember.module.scss';
 
 const TeamMember = ({title, children, image}) => (
     <div className={style.main}>
-        <Image fluid={image} className={style.image} />
+        <div className={style.imagePositioner}>
+            <div className={style.imageSizer}>
+                <div className={style.imageWrapper}>
+                    <Image
+                        fluid={image}
+                        title={title}
+                    />
+                </div>
+            </div>
+        </div>
         <div className={style.text}>
             <h2 className={style.title}>{title}</h2>
             {children}

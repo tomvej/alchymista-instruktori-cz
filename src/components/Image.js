@@ -5,15 +5,14 @@ import GatsbyImage from 'gatsby-image';
 
 import style from './Image.module.scss';
 
-const Image = ({fluid, className}) => (
+const Image = ({className, ...props}) => (
     <GatsbyImage
-        fluid={fluid}
+        {...props}
         className={classnames(style.main, className)}
     />
 );
 
 Image.propTypes = {
-    fluid: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
     className: PropTypes.string,
 };
 
