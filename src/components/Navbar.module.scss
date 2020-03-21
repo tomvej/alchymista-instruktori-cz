@@ -10,16 +10,18 @@ $background: $color-text;
     z-index: $z-index-fixed;
 
     background-color: $background;
-    transition: opacity .5s ease;
+    transition: .5s ease;
 
     font-family: $font-heading;
 }
 
 .shrunk {
     opacity: 0;
+    visibility: hidden;
 
     @include md {
         opacity: 1;
+        visibility: visible;
     }
 }
 
