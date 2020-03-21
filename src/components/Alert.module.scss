@@ -4,6 +4,8 @@
     border: 1px solid $color-error;
     border-radius: .5rem;
     background-color: lighten($color-error, 20%);
+    color: $color-text;
+    text-shadow: none;
 
     padding: 1.5rem;
 }
