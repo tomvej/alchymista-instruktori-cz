@@ -1,5 +1,11 @@
+@import "../media";
+
 .main {
     display: flex;
+
+    @include sm {
+        flex-direction: column;
+    }
 }
 
 .imagePositioner {
