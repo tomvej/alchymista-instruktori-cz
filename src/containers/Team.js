@@ -31,7 +31,7 @@ export default () => {
 
     return (
         <>
-            <h1>Tým</h1>
+            <h1>Kdo to pořádá?</h1>
             {edges.map(({node: {htmlAst, frontmatter: {name, photo}}}) => (
                 <TeamMember
                     key={name}
