@@ -32,8 +32,9 @@ export default () => {
     return (
         <>
             <h1>Tým</h1>
-            {edges.map(({node: {htmlAst, frontmatter: {name, photo,}}}) => (
+            {edges.map(({node: {htmlAst, frontmatter: {name, photo}}}) => (
                 <TeamMember
+                    key={name}
                     title={name}
                     image={photo.childImageSharp.fluid}
                 >
