@@ -11,8 +11,9 @@ import {
     SideBySide,
     Box,
     FormSection,
+    renderMarkdown,
 } from '../components';
-import {required, validEmail, renderMarkdown, submitForm} from '../utils';
+import {required, validEmail, submitForm} from '../utils';
 import SubmitError from './SubmitError';
 
 export default () => {

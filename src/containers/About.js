@@ -1,6 +1,5 @@
 import {graphql, useStaticQuery} from 'gatsby';
-import {renderMarkdown} from '../utils';
-
+import {renderMarkdown} from '../components';
 
 export default () => {
     const {text: {childMarkdownRemark: {htmlAst}}} = useStaticQuery(graphql`

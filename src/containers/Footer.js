@@ -1,7 +1,6 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
-import {Footer} from '../components';
-import {renderMarkdown} from '../utils';
+import {Footer, renderMarkdown} from '../components';
 
 export default () => {
     const {

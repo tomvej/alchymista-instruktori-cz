@@ -1,7 +1,6 @@
 import React from 'react';
 import {graphql, useStaticQuery} from 'gatsby';
-import {createMarkdownRenderer} from '../utils';
-import {FragmentList, TwoColumnGallery} from '../components';
+import {FragmentList, TwoColumnGallery, createMarkdownRenderer} from '../components';
 
 const renderMarkdown = createMarkdownRenderer({
     p: 'li',

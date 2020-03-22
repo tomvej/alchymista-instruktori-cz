@@ -1,7 +1,6 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
-import {renderMarkdown} from '../utils';
-import {TeamMember} from '../components';
+import {TeamMember, renderMarkdown} from '../components';
 
 export default () => {
     const {team: {edges}} = useStaticQuery(graphql`
