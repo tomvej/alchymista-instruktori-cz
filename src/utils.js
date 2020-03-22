@@ -6,6 +6,8 @@ import queryString from 'query-string';
 
 export const noop = () => {};
 
+export const seq = (length) => Array.from({length}).map((_, index) => index);
+
 export const preventDevault = (handler) => (event) => {
     event.preventDefault();
     handler(event);

@@ -45,6 +45,13 @@ module.exports = {
                 path: `${__dirname}/src/team`,
             },
         },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'gallery',
+                path: `${__dirname}/src/gallery`,
+            },
+        },
         'gatsby-transformer-sharp',
         'gatsby-plugin-sharp',
         {
