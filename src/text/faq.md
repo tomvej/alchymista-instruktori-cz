@@ -14,7 +14,7 @@ Naším záměrem není vás zcela ztrhat, ale dát vám možnost vyzkoušet si 
 
 ## Jsem spíš princezna a myslím, že bez mýdla dlouho nevydržím.
 
-## Ale já nevydržím bez telefonu
+## Ale já nevydržím bez telefonu.
 Na celou dobu akce je nachystaný program, kromě toho se budeš setkávat se zajímavými lidmi. Naše zkušenost je taková,
 že většinu účastníků akce natolik pohltí, že si na telefon ani nevzpomenou.
 
@@ -97,7 +97,7 @@ Možná si vyzkoušíš něco nového. Prožiješ si něco a zjistíš o sobě n
 poučení do svého života, začneš věci dělat jinak.  Každopádně se potkáš se zajímavými lidmi a budete mít možnost sdílet své zkušenosti.
 
 ## A o čem teda Alchymistův učeň je?
-Tématem Alchymistova učně je hledání Velkého díla: Činností, které nás v životě naplňují, přinášejí nám radost a smysl.
+Tématem Alchymistova učně je hledání Velkého díla: činností, které nás v životě naplňují, přinášejí nám radost a smysl.
 Chceme se společně zamyslet nad tím, co pro nás takové činnosti charakterizuje, jak je poznat a možná je i najít.
 
 ## Jak moc drsný středověk děláte? Jste historicky věrní?
