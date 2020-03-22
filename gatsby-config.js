@@ -82,8 +82,8 @@ module.exports = {
             resolve: 'gatsby-plugin-google-fonts',
             options: {
                 fonts: [
-                    'Fondamento',
-                    'Livvic',
+                    'Eagle Lake',
+                    'Proza Libre',
                 ],
                 display: 'swap',
             },
