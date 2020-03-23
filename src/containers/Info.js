@@ -1,6 +1,7 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
-import {TwoColumn, renderMarkdown} from '../components';
+import {TwoColumn, renderMarkdown, Unbreakable} from '../components';
+import splitHeadings from './splitHeadings';
 
 const renderNodes = (children) => renderMarkdown({type: 'root', children});
 
@@ -14,12 +15,18 @@ export default () => {
             }
         }
     `);
-    const {children: childNodes} = htmlAst;
+    const [preface, sections] = splitHeadings(htmlAst, 2);
     return (
         <>
-            {renderMarkdown(childNodes[0])}
+            {renderNodes(preface)}
             <TwoColumn>
-                {renderNodes(childNodes.slice(1))}
+                {sections.map(({heading, children}, index) => (
+                    // nothing else to use but index
+                    // eslint-disable-next-line react/no-array-index-key
+                    <Unbreakable key={index}>
+                        {renderNodes([heading].concat(children))}
+                    </Unbreakable>
+                ))}
             </TwoColumn>
         </>
     );
