@@ -13,6 +13,12 @@ Snažíme se nastavit aktivity tak, aby je všichni účastníci zvládli a poku
 Naším záměrem není vás zcela ztrhat, ale dát vám možnost vyzkoušet si něco nového a rozvíjet se.
 
 ## Jsem spíš princezna a myslím, že bez mýdla dlouho nevydržím.
+Nemůžeme ti slíbit, že se každý den budeš moct mýt v teplé vodě, protože všechnu vodu musíme ohřát na ohni. Lázně ale zařazujeme, když je potřeba,
+často po fyzicky náročných nebo špinavých programech. Studené vody samozřejmě bude dostatek.
+
+Pokud to budeš opravdu potřebovat, můžeš domluvit s kuchyní a nechat si výjimečně ohřát vodu jen pro sebe.
+
+Nemusíš se ale bát, že se v lázních pořádně neumyješ. Je to trochu jako sprcha, jen místo sprchy máš džbán. Teplé vody, mýdla a šamponu bude dost.
 
 ## Ale já nevydržím bez telefonu.
 Na celou dobu akce je nachystaný program, kromě toho se budeš setkávat se zajímavými lidmi. Naše zkušenost je taková,
@@ -52,9 +58,6 @@ Jinak se řemeslům věnujeme i na jiných akcích, například [Řemesla na Tvr
 ## Nemůžu jíst … Je to problém?
 Většinu běžných stravovacích omezení (bez masa, bez lepku, bez laktózy, …) jsme schopni zvládnout, když nám dáš předem vědět
 (budeš vyplňovat zdravotní dotazník). Pokud si nejsi jistý/á, zeptej se nás.
-
-## Co se stane, když nebudu souhlasit s focením?
-Dáme vědět fotografovi a pokud se i tak náhodou na nějaké fotce vyskytneš, na konci akce ji smažeme. Rozhodně tvoje fotky nebudeme zveřejňovat.
 
 ## Jaké jsou stornopoplatky?
 V případě, že z nějakého důvodu – i zdravotního – zrušíš svou účast, vrátíme ti:
