@@ -63,7 +63,15 @@ Jinak se řemeslům věnujeme i na jiných akcích, například [Řemesla na Tvr
 
 ## Nemůžu jíst … Je to problém?
 Většinu běžných stravovacích omezení (bez masa, bez lepku, bez laktózy, …) jsme schopni zvládnout, když nám dáš předem vědět
-(budeš vyplňovat zdravotní dotazník). Pokud si nejsi jistý/á, zeptej se nás.
+(budeš vyplňovat zdravotní dotazník). Pokud si nejsi jistý/á, [zeptej se nás](mailto:alchymista@instruktori.cz).
+
+## Mám zdravotní omezení. Můžu jet?
+Důležitou součástí akce je fyzický pohyb a občas může být psychicky náročná. Na druhou stranu, náročnost jsme schopni upravovat
+a s velkým množstvím omezení a problémů jsme schopni si poradit – pokud o nich budeme vědět dopředu (po přihlášení ti pošleme dotazník).
+
+Pokud pravidelně bereš nějaké léky, zařídíme, aby na to byl čas.
+
+Pokud si nejsi jistý/á svým konkrétním omezením, [napiš nám](mailto:alchymista@instruktori.cz).
 
 ## Jaké jsou stornopoplatky?
 V případě, že z nějakého důvodu zrušíš svou účast, vrátíme ti:
