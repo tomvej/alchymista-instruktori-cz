@@ -2,6 +2,12 @@
 ====================
 Chybí ti odpověď na nějakou tvou otázku? [Napiš nám!](#contact)
 
+## Je bezpečné jet na akci v době pandemie COVID-19?
+Nechceme pořádat akci, která by mohla ohrozit účastníky a jejich blízké. Pokud nebude v srpnu situace dost bezpečná,
+akci zrušíme a všechny peníze dostaneš zpátky.
+
+Zároveň jsme ti výjimečně ochotni vrátit účastnický poplatek, pokud se na akci rozhodneš nejet ze zdravotních důvodů.
+
 ## Co když na akci nikoho neznám?
 To je v pořádku a trochu počítáme s tím, že se účastníci na začátku mezi sebou znát nebudou. Dáme ti dost příležitostí
 na to se s ostatními seznámit, ať už při aktivitách, které na to jsou přímo zaměřené, nebo společné práci, jídle a zpívání u ohně.
@@ -60,13 +66,16 @@ Většinu běžných stravovacích omezení (bez masa, bez lepku, bez laktózy, 
 (budeš vyplňovat zdravotní dotazník). Pokud si nejsi jistý/á, zeptej se nás.
 
 ## Jaké jsou stornopoplatky?
-V případě, že z nějakého důvodu – i zdravotního – zrušíš svou účast, vrátíme ti:
+V případě, že z nějakého důvodu zrušíš svou účast, vrátíme ti:
 
 * do 14. 7. včetně 70 % tvého účastnického poplatku
 * do 4. 8. včetně 50 % tvého účastnického poplatku,
 * do 13. 8. včetně 10 % tvého účastnického poplatku.
 
 V případě, že akci zrušíme my, vrátíme ti 100 % tvého účastnického poplatku.
+
+Vzhlem k pandemii nemoci COVID-19 jsme ochotni výjimečně vrátit ti celý účastnický poplatek,
+pokud se rozhodneš na akci nejet ze zdravotních důvodů.
 
 ## Co když mi kostým nebude sedět?
 V dotazníku si od tebe vyžádáme tvé základní míry, takže se do kostýmu téměř jistě vejdeš. Možná ti bude trochu větší,
