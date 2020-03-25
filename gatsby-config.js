@@ -19,7 +19,6 @@ module.exports = {
             name: 'entry.1528101418',
             email: 'entry.64509220',
             message: 'entry.1336304104',
-            photoConsent: 'entry.826063302',
         },
     },
     plugins: [

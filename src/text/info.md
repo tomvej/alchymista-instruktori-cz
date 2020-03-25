@@ -24,7 +24,7 @@ Co spaní a hygiena?
 -------------------
 Spát budeš pod střechou ve vlastním spacáku. Hlavní prostory jsou vystlané slámou, ale pro alergiky máme i prostory bez slámy.
 
-Vodu máme čistou z kohoutku, na zámku je splachovací záchod, kam chodíme, a budeme se snažit, abyste se mohli alespoň dvakrát
+Vodu máme čistou z kohoutku, na zámku je splachovací záchod, kam chodíme, a budeme se snažit, abyste se mohli alespoň třikrát
 vykoupat v teplé vodě. Pokud ti nevadí studená voda, můžeš se mýt i častěji.
 
 Pro koho to je?

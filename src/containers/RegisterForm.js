@@ -18,8 +18,7 @@ import SubmitError from './SubmitError';
 
 export default () => {
     const {
-        site: {siteMetadata: {formAction, formFields: {name, email, message, photoConsent}}},
-        consentText: {childMarkdownRemark: {htmlAst: consentAst}},
+        site: {siteMetadata: {formAction, formFields: {name, email, message}}},
         registerText: {childMarkdownRemark: {htmlAst: registerAst}},
     } = useStaticQuery(graphql`
         query {
@@ -30,13 +29,7 @@ export default () => {
                         name
                         email
                         message
-                        photoConsent
                     }
-                }
-            }
-            consentText: file(relativePath: {eq: "photoConsent.md"}) {
-                childMarkdownRemark {
-                    htmlAst
                 }
             }
             registerText: file(relativePath: {eq: "register.md"}) {
@@ -55,7 +48,6 @@ export default () => {
                     [name]: values.name,
                     [email]: values.email,
                     [message]: values.message,
-                    [photoConsent]: values.photoConsent,
                 })}
                 initialValues={{photoConsent: true}}
             >
@@ -87,13 +79,6 @@ export default () => {
                             component={StringInput}
                             area
                         />
-                        <CheckboxField
-                            name="photoConsent"
-                            label="Uděluji souhlas s focením"
-                        />
-                        <ConsentArea>
-                            {renderMarkdown(consentAst)}
-                        </ConsentArea>
                         {submitFailed && <SubmitError />}
                         {submitSucceeded || <Button submit disabled={!valid}>Přihlásit se</Button>}
                         {submitSucceeded && <Box>Díky za tvou přihlášku. Co nevidět se ti ozveme.</Box>}
