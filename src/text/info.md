@@ -9,6 +9,25 @@ Kde to bude?
 ------------
 Ve středověké vesničce u Zámku Rosice kousek od Brna.
 
+Pro koho to je?
+---------------
+Na akci můžeš jet, pokud ti bylo 18, nevadí ti trochu si zaběhat a při tom se zapotit, chceš potkat nové lidi a baví tě o věcech přemýšlet.
+
+Jak to bude probíhat?
+---------------------
+Na celou dobu akce máme naplánované různé aktivity. Můžou to být různé hry, tvořivé činnosti jako řemesla nebo práce na údržbě a budování vesničky,
+diskuze a další. Ty na sebe navazují, pracují se zkušenostmi z předchozích aktivit. Našim záměrem je dát ti možnost si vyzkoušet něco nového a něco se tak o sobě dozvědět.
+
+Kdo to pořádá?
+--------------
+Jsme dobrovolníci z organizace Instruktoři Brno. Všichni jsme součástí projektu Tvrz, který se točí kolem středověké vesničky v Rosicích.
+[Chceš o nás vědět více?](#team)
+
+Kromě Alchymistova učně pořádáme například řemeslný workshop [Řemesla na tvrzi Rosické](http://remesla.tvrz.net) nebo Tvrzičky, na kterých se scházíme
+a zkoušíme středověká řemesla a jiné činnosti (například 18. 7. budeme vařit pivo, přijeď se podívat).
+
+Pokud tě zajímá více, co všechno Rosicích děláme, podívej se na [náš facebook](https://www.facebook.com/tvrz.net).
+
 Středověká vesnička?
 --------------------
 Atmosféra je pro nás důležitá: Alchymistův učeň se odehrává ve středověkých kulisách. Budeme chodit v kostýmech, žít v prostorách středověké vesničky a udržovat ji v chodu.
@@ -27,10 +46,6 @@ Spát budeš pod střechou ve vlastním spacáku. Hlavní prostory jsou vystlan�
 Vodu máme čistou z kohoutku, na zámku je splachovací záchod, kam chodíme, a budeme se snažit, abyste se mohli alespoň třikrát
 vykoupat v teplé vodě. Pokud ti nevadí studená voda, můžeš se mýt i častěji.
 
-Pro koho to je?
----------------
-Na akci můžeš jet, pokud ti bylo 18, nevadí ti trochu si zaběhat a při tom se zapotit, chceš potkat nové lidi a baví tě o věcech přemýšlet.
-
 Co budu potřebovat?
 -------------------
 Budeš potřebovat spacák, karimatku a teplé oblečení na ven, u kterého nevadí, že se trochu ušpiní a načichne od kouře.
@@ -38,21 +53,6 @@ Protože budeme hodně času trávit venku na slunci, vem si s sebou na hlavu š
 
 Základní kostým dostaneš. K němu si vem kalhoty a boty, které nebudou moc rušit. Dobré jsou jednobarevné kalhoty nebo kraťasy
 v nějaké neutrální barvě (černé, hnědé, šedé, khaki, …) a kanady, pohorky, tmavé tenisky nebo sandály.
-
-Jak to bude probíhat?
----------------------
-Na celou dobu akce máme naplánované různé aktivity. Můžou to být různé hry, tvořivé činnosti jako řemesla nebo práce na údržbě a budování vesničky,
-diskuze a další. Ty na sebe navazují, pracují se zkušenostmi z předchozích aktivit. Našim záměrem je dát ti možnost si vyzkoušet něco nového a něco se tak o sobě dozvědět.
-
-Kdo to pořádá?
---------------
-Jsme dobrovolníci z organizace Instruktoři Brno. Všichni jsme součástí projektu Tvrz, který se točí kolem středověké vesničky v Rosicích.
-[Chceš o nás vědět více?](#team)
-
-Kromě Alchymistova učně pořádáme například řemeslný workshop [Řemesla na tvrzi Rosické](http://remesla.tvrz.net) nebo Tvrzičky, na kterých se scházíme
-a zkoušíme středověká řemesla a jiné činnosti (například 18. 7. budeme vařit pivo, přijeď se podívat).
-
-Pokud tě zajímá více, co všechno Rosicích děláme, podívej se na [náš facebook](https://www.facebook.com/tvrz.net).
 
 Kolik za to zaplatím?
 ---------------------
@@ -62,6 +62,6 @@ Z tvého účastnického poplatku ti zajistíme jídlo, ubytování, kostým, a 
 
 Alchymistova učně pořádáme bez nároku na honorář, případné přebytky půjdou do fondu údržby vesničky.
 
-Jel/jela bych, ale nejsem si jistý/jistá …
-------------------------------------------
+Jel/jela bych, ale nevím, jestli …
+----------------------------------
 Potřebuješ vědět více? Podívej se do sekce [často kladených dotazů](#faq). A pokud ani tam nenajdeš odpověď na svou otázku, [napiš nám](#contact).
