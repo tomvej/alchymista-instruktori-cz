@@ -110,7 +110,7 @@ Zážitková pedagogika (také zkušenostně reflektivní učení) do toho přin
 (předat konkrétní znalost, zkušenost) a vědomě pracuje s reflexí zážitku, zpětným ohlédnutím za tím, co se stalo a co si z toho vzít.
 
 Jak to bude probíhat? Na celou dobu akce máme připravené konkrétní aktivity: Hry, tvořivé činnosti jako práce a řemesla, diskuse, …
-Ty souvisí s tématem Alchymistova učně – hledáním Velkého díla – navazují na sebe a povedou tě k tomu, aby ses zamyslel nad tím,
+Ty souvisí s tématem Alchymistova učně – hledáním Velkého díla – navazují na sebe a povedou tě k tomu, aby ses zamyslel/a nad tím,
 jak to ve svém životě máš.
 
 Možná si vyzkoušíš něco nového. Prožiješ si něco a zjistíš o sobě něco, co jsi předtím nevěděl/a. A třeba si odneseš nějaké
