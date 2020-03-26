@@ -7,3 +7,4 @@ export {default as Fragments} from './Fragments';
 export {default as Team} from './Team';
 export {default as Contact} from './Contact';
 export {default as Gallery} from './Gallery';
+export {default as ContactFiller} from './ContactFiller';

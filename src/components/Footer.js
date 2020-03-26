@@ -9,8 +9,8 @@ const Footer = ({children, year, author}) => (
     <footer className={style.main}>
         <ResponsiveContainer className={style.container}>
             <Center>
-            {children}
-            <p>Copyright &copy; {author} {year}</p>
+                {children}
+                <p>Copyright &copy; {author} {year}</p>
             </Center>
         </ResponsiveContainer>
     </footer>

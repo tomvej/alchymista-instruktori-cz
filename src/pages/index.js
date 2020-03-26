@@ -4,7 +4,7 @@ import {graphql, useStaticQuery} from 'gatsby';
 import './style.scss';
 
 import {Background, Navbar, Section, SEO, SummaryTable, Title} from '../components';
-import {About, Contact, Faq, Footer, Fragments, Gallery, Info, RegisterForm, Team} from '../containers';
+import {About, Contact, ContactFiller, Faq, Footer, Fragments, Gallery, Info, RegisterForm, Team} from '../containers';
 
 const IndexPage = () => {
     const {site: {siteMetadata: {title, subtitle, basicInfo}}} = useStaticQuery(graphql`
@@ -62,6 +62,7 @@ const IndexPage = () => {
             </Section>
             <Section name="team" narrow>
                 <Team />
+                <ContactFiller />
             </Section>
             <Section name="contact" narrow>
                 <Contact />
