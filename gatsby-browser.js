@@ -2,6 +2,7 @@ import React from 'react';
 import {config} from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import {NavbarContextProvider} from './src/components';
+import 'whatwg-fetch';
 
 config.autoAddCss = false;
 
