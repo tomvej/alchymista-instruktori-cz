@@ -1,4 +1,9 @@
+@import "../media";
+
 .main {
     font-size: 1.2em;
-    font-weight: bold;
+
+    @include md {
+        font-size: 1.1em;
+    }
 }
