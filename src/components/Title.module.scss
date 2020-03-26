@@ -4,33 +4,54 @@
 $mask: #000000;
 
 .main {
-    height: 90vh;
+    height: 100vh;
+    position: relative;
+}
 
-    @include md {
-        height: auto;
-        padding: 15rem 0;
-    }
+.background {
+    height: 125%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.image {
+    height: 100%
 }
 
 .image .image:after, .image:before {
-    mask-image: linear-gradient(#{fade-out($mask, 0)} 0%, #{fade-out($mask, 0)} 75%, fade-out($mask, 1) 100%);
-}
-
-$overlay-color: fade-out($color-background, 0.9);
-
-:export {
-    overlay: linear-gradient($overlay-color 0%, $overlay-color 100%);
+    mask-image: linear-gradient(#{fade-out($mask, 0)} 0%, #{fade-out($mask, 0)} 80%, fade-out($mask, 1) 100%);
 }
 
 .container {
+    position: relative;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    height: 100%;
     justify-content: center;
-    align-items: center;
 }
 
 .title {
+    font-size: 6em;
+    margin: 0;
+
+    font-family: 'Pirata One', sans-serif;
+    letter-spacing: .05em;
+
+    color: darken($color-text, 10%);
+    text-shadow: .15rem .1rem fade-out(white, .7);
+
+    @include md {
+        font-size: 4em;
+    }
+
+    @include sm {
+        font-size: 3em;
+    }
+}
+
+.title_ {
     font-size: 6em;
     margin: 0;
     white-space: nowrap;
@@ -39,7 +60,7 @@ $overlay-color: fade-out($color-background, 0.9);
     letter-spacing: .05em;
 
     color: black;
-    text-shadow: .2rem .2rem fade-out(white, .7);
+
 
     @include md {
         font-size: 4em;
