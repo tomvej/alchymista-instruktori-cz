@@ -44,6 +44,9 @@ $mask: #000000;
     flex: 1 1 0;
 }
 
+$sh-in: .005em;
+$sh-out: .015em;
+
 .title {
     font-size: 7em;
     margin: 0;
@@ -52,7 +55,7 @@ $mask: #000000;
     letter-spacing: .05em;
 
     color: darken($color-text, 10%);
-    text-shadow: .15rem .1rem fade-out(white, .7);
+    text-shadow: $sh-out $sh-out $sh-out fade-out($color-title-text, .3), #{-$sh-in} #{-$sh-in} $sh-in fade-out($color-title-text, .3);
 
     @include md {
         font-size: 4.5em;
