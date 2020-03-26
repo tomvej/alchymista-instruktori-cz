@@ -27,3 +27,4 @@ export {default as TwoColumnGallery} from './TwoColumnGallery';
 export {default as MultiRowGallery} from './MultiRowGallery';
 export {createMarkdownRenderer, renderMarkdown} from './markdown';
 export {default as Unbreakable} from './Unbreakable';
+export {default as AboutSection} from './AboutSection';

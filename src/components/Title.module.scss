@@ -4,12 +4,12 @@
 $mask: #000000;
 
 .main {
-    height: 125vh;
+    height: 115vh;
     position: relative;
 }
 
 .background {
-    height: 100%;
+    height: 125vh;
     width: 100%;
     position: absolute;
     top: 0;
@@ -26,7 +26,7 @@ $mask: #000000;
 
 .container {
     position: relative;
-    height: 80%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
