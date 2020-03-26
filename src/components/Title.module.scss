@@ -38,6 +38,7 @@ $mask: #000000;
 
 .summaryWrapper {
     display: flex;
+    margin: 1rem 0;
 }
 
 .summary {
@@ -46,6 +47,7 @@ $mask: #000000;
 
 $sh-in: .005em;
 $sh-out: .015em;
+$text-shadow: $sh-out $sh-out $sh-out fade-out($color-title-text, .3), #{-$sh-in} #{-$sh-in} $sh-in fade-out($color-title-text, .3);
 
 .title {
     font-size: 7em;
@@ -55,7 +57,7 @@ $sh-out: .015em;
     letter-spacing: .05em;
 
     color: darken($color-text, 10%);
-    text-shadow: $sh-out $sh-out $sh-out fade-out($color-title-text, .3), #{-$sh-in} #{-$sh-in} $sh-in fade-out($color-title-text, .3);
+    text-shadow: $text-shadow;
 
     @include md {
         font-size: 4.5em;
@@ -63,5 +65,16 @@ $sh-out: .015em;
 
     @include sm {
         font-size: 3.5em;
+    }
+}
+
+.subtitle {
+    color: darken($color-text, 10%);
+    text-shadow: $text-shadow;
+    font-size: 2em;
+    margin: 0;
+
+    @include md {
+        font-size: 1.2em;
     }
 }

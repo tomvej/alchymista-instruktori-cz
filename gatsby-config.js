@@ -3,6 +3,7 @@ const sass = require('sass');
 module.exports = {
     siteMetadata: {
         title: 'Alchymistův učeň',
+        subtitle: 'Přijeď hledat svůj kámen mudrců!',
         description: 'Při­jeď hle­dat to, co tě ve tvém ži­vo­tě na­pl­ňu­je – svůj ká­men mudr­ců.',
         author: 'Tvrz',
         contact: 'alchymista@instruktori.cz',

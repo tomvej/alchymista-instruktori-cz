@@ -7,11 +7,12 @@ import {Background, Navbar, Section, SEO, SummaryTable, Title} from '../componen
 import {About, Contact, Faq, Footer, Fragments, Gallery, Info, RegisterForm, Team} from '../containers';
 
 const IndexPage = () => {
-    const {site: {siteMetadata: {title, basicInfo}}} = useStaticQuery(graphql`
+    const {site: {siteMetadata: {title, subtitle, basicInfo}}} = useStaticQuery(graphql`
         query {
             site {
                 siteMetadata {
                     title
+                    subtitle
                     basicInfo {
                         label
                         value
@@ -36,6 +37,7 @@ const IndexPage = () => {
             />
             <Title
                 title={title}
+                subtitle={subtitle}
                 summaryTable={(
                     <SummaryTable
                         actionLink="register"
