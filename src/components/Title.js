@@ -7,7 +7,7 @@ import ResponsiveContainer from './ResponsiveContainer';
 
 import style from './Title.module.scss';
 
-const Title = ({title, children}) => {
+const Title = ({title, summaryTable}) => {
     const {background: {childImageSharp: {fluid}}} = useStaticQuery(graphql`
         query {
             background: file(relativePath: {eq: "title1a.jpg"}) {
@@ -23,10 +23,12 @@ const Title = ({title, children}) => {
     return (
         <header className={style.main}>
             <ResponsiveContainer className={style.container}>
-                <h1 className={style.title}>
-                    {title}
-                </h1>
-                {children}
+                <div>
+                    <div className={style.titleWrapper}>
+                        <h1 className={style.title}>{title}</h1>
+                        <div className={style.summaryWrapper}><div className={style.summary}>{summaryTable}</div></div>
+                    </div>
+                </div>
             </ResponsiveContainer>
             <div className={style.background}>
                 <BackgroundImage
@@ -40,11 +42,11 @@ const Title = ({title, children}) => {
 
 Title.propTypes = {
     title: PropTypes.string.isRequired,
-    children: PropTypes.node,
+    summaryTable: PropTypes.node,
 };
 
 Title.defaultProps = {
-    children: null,
+    summaryTable: null,
 };
 
 export default Title;

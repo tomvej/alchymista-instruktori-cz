@@ -34,13 +34,16 @@ const IndexPage = () => {
                     contact: 'Kontakt',
                 }}
             />
-            <Title title={title}>
-                <SummaryTable
-                    actionLink="register"
-                    actionText="Přihlásit se"
-                    items={basicInfo}
-                />
-            </Title>
+            <Title
+                title={title}
+                summaryTable={(
+                    <SummaryTable
+                        actionLink="register"
+                        actionText="Přihlásit se"
+                        items={basicInfo}
+                    />
+                )}
+            />
             <Section name="about">
                 <About />
                 <Fragments />
