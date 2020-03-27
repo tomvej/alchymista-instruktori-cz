@@ -4,17 +4,25 @@
 $mask: #000000;
 
 .main {
-    height: 125vh;
+    height: 115vh;
     position: relative;
     min-height: 30rem;
+
+    @include ie-only {
+        height: 125vh;
+    }
 }
 
 .background {
-    height: 100%;
+    height: 109%;
     width: 100%;
     position: absolute;
     top: 0;
     z-index: -1;
+
+    @include ie-only {
+        height: 100%;
+    }
 }
 
 .image {
@@ -27,10 +35,14 @@ $mask: #000000;
 
 .container {
     position: relative;
-    height: 80%;
+    height: 87%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @include ie-only {
+        height: 80%;
+    }
 }
 
 .titleWrapper {
