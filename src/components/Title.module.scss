@@ -48,7 +48,7 @@ $mask: #000000;
 
 $sh-in: .005em;
 $sh-out: .015em;
-$text-shadow: $sh-out $sh-out $sh-out fade-out($color-title-text, .3), #{-$sh-in} #{-$sh-in} $sh-in fade-out($color-title-text, .3);
+$text-shadow: $sh-out $sh-out $sh-out fade-out($color-title-highlight, .3), #{-$sh-in} #{-$sh-in} $sh-in fade-out($color-title-highlight, .3);
 
 .title {
     font-size: 7em;
@@ -57,7 +57,7 @@ $text-shadow: $sh-out $sh-out $sh-out fade-out($color-title-text, .3), #{-$sh-in
     font-family: 'Pirata One', sans-serif;
     letter-spacing: .05em;
 
-    color: darken($color-text, 10%);
+    color: $color-title-text;
     text-shadow: $text-shadow;
 
     @include md {
@@ -70,7 +70,7 @@ $text-shadow: $sh-out $sh-out $sh-out fade-out($color-title-text, .3), #{-$sh-in
 }
 
 .subtitle {
-    color: darken($color-text, 10%);
+    color: $color-title-text;
     text-shadow: $text-shadow;
     font-size: 2em;
     margin: 0;
