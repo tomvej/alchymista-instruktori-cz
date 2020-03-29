@@ -2,11 +2,13 @@
 ====================
 Chybí ti odpověď na nějakou tvou otázku? [Napiš nám!](#contact)
 
-## Je bezpečné jet na akci v době pandemie COVID-19?
+## Jak se stavíte k pandemii COVID-19?
 Nechceme pořádat akci, která by mohla ohrozit účastníky a jejich blízké. Pokud nebude v srpnu situace dost bezpečná,
-akci zrušíme a všechny peníze dostaneš zpátky.
+akci nejpozději 1. 8. zrušíme a všechny peníze dostaneš zpátky. Při pořádání akce se budeme držet nejen nařízení,
+ale i doporučení vlády a hygieny.
 
-Zároveň jsme ti výjimečně ochotni vrátit účastnický poplatek, pokud se na akci rozhodneš nejet ze zdravotních důvodů.
+Zároveň jsme ti výjimečně ochotní vrátit celý účastnický poplatek, pokud se rozhodneš na akci nejet ze zdravotních důvodů
+nebo jiných důvodů souvisejících s pandemií (karanténa, osobní či pracovní situace, …).
 
 ## Co když na akci nikoho neznám?
 To je v pořádku a trochu počítáme s tím, že se účastníci na začátku mezi sebou znát nebudou. Dáme ti dost příležitostí
@@ -82,8 +84,8 @@ V případě, že z nějakého důvodu zrušíš svou účast, vrátíme ti:
 
 V případě, že akci zrušíme my, vrátíme ti 100 % tvého účastnického poplatku.
 
-Vzhlem k pandemii nemoci COVID-19 jsme ochotni výjimečně vrátit ti celý účastnický poplatek,
-pokud se rozhodneš na akci nejet ze zdravotních důvodů.
+Vzhlem k pandemii nemoci COVID-19 jsme ochotní ti vrátit celý účastnický poplatek, pokud se rozhodneš na akci nejet ze zdravotních důvodů
+nebo jiných důvodů souvisejících s pandemií (karanténa, osobní či pracovní situace, …). Věříme, že toho nezneužiješ.
 
 ## Co když mi kostým nebude sedět?
 V dotazníku si od tebe vyžádáme tvé základní míry, takže se do kostýmu téměř jistě vejdeš. Možná ti bude trochu větší,
