@@ -1,19 +1,18 @@
 import React from 'react';
 import {Form as FinalForm} from 'react-final-form';
-import {useStaticQuery, graphql} from 'gatsby';
+import {graphql, useStaticQuery} from 'gatsby';
 import {
-    Button,
-    CheckboxField,
-    ConsentArea,
-    FormField,
-    StringInput,
-    Form,
-    SideBySide,
     Box,
+    Button,
+    Form,
+    FormField,
     FormSection,
     renderMarkdown,
+    SideBySide,
+    Spinner,
+    StringInput,
 } from '../components';
-import {required, validEmail, submitForm} from '../utils';
+import {required, submitForm, validEmail} from '../utils';
 import SubmitError from './SubmitError';
 
 export default () => {
@@ -51,7 +50,7 @@ export default () => {
                 })}
                 initialValues={{photoConsent: true}}
             >
-                {({handleSubmit, valid, submitSucceeded, submitFailed}) => (
+                {({handleSubmit, valid, submitSucceeded, submitFailed, submitting}) => (
                     <Form onSubmit={handleSubmit}>
                         <SideBySide
                             left={(
@@ -80,7 +79,13 @@ export default () => {
                             area
                         />
                         {submitFailed && <SubmitError />}
-                        {submitSucceeded || <Button submit disabled={!valid}>Přihlásit se</Button>}
+                        {submitSucceeded || (
+                            <Button submit disabled={!valid || submitting}>
+                                {submitting && <Spinner />}
+                                {submitting && ' '}
+                                Přihlásit se
+                            </Button>
+                        )}
                         {submitSucceeded && <Box>Díky za tvou přihlášku. Co nevidět se ti ozveme.</Box>}
                     </Form>
                 )}
