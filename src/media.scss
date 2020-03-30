@@ -41,3 +41,9 @@
         @content
     }
 }
+
+@mixin edge-only {
+    @supports (-ms-ime-align:auto) {
+        @content
+    }
+}

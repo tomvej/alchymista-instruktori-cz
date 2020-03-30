@@ -11,6 +11,9 @@ $mask: #000000;
     @include ie-only {
         height: 125vh;
     }
+    @include edge-only {
+        height: 125vh;
+    }
 }
 
 .background {
@@ -21,6 +24,9 @@ $mask: #000000;
     z-index: -1;
 
     @include ie-only {
+        height: 100%;
+    }
+    @include edge-only {
         height: 100%;
     }
 }
@@ -41,6 +47,9 @@ $mask: #000000;
     justify-content: center;
 
     @include ie-only {
+        height: 80%;
+    }
+    @include edge-only {
         height: 80%;
     }
 }
