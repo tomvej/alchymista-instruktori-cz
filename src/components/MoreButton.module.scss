@@ -1,3 +1,26 @@
-.main {
+@import "../variables";
 
+$size: 4em;
+
+.main {
+    margin: .5rem;
+    font-size: $size;
+    opacity: .7;
+
+    border-radius: $size / 2;
+
+    transition: .3s ease;
+}
+
+.main:hover {
+    opacity: 1;
+    box-shadow: 0 0 .1rem .1rem fade-out($color-title-highlight, .5);
+}
+
+.icon {
+    color: $color-title-highlight;
+}
+
+.background {
+    color: $color-title-text;
 }
