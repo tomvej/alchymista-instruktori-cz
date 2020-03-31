@@ -24,7 +24,7 @@ Jsme dobrovolníci z organizace Instruktoři Brno. Všichni jsme součástí pro
 [Chceš o nás vědět více?](#team)
 
 Kromě Alchymistova učně pořádáme například řemeslný workshop [Řemesla na tvrzi Rosické](http://remesla.tvrz.net) nebo Tvrzičky, na kterých se scházíme
-a zkoušíme středověká řemesla a jiné činnosti (například 18. 7. budeme vařit pivo, přijeď se podívat).
+a zkoušíme středověká řemesla a jiné činnosti.
 
 Pokud tě zajímá více, co všechno Rosicích děláme, podívej se na [náš facebook](https://www.facebook.com/tvrz.net).
 
