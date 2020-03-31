@@ -3,7 +3,7 @@ import {graphql, useStaticQuery} from 'gatsby';
 
 import './style.scss';
 
-import {Background, Box, Navbar, Section, SEO, SummaryTable, Title} from '../components';
+import {Background, Navbar, Section, SEO, SummaryTable, Title} from '../components';
 import {
     About,
     Contact,
@@ -51,14 +51,13 @@ const IndexPage = () => {
                 title={title}
                 subtitle={subtitle}
                 more="about"
-                summaryTable={(
-                    <SummaryTable
-                        actionLink="register"
-                        actionText="Přihlásit se"
-                        items={basicInfo}
-                    />
-                )}
-            />
+            >
+                <SummaryTable
+                    actionLink="register"
+                    actionText="Přihlásit se"
+                    items={basicInfo}
+                />
+            </Title>
             <Section name="about">
                 <About />
                 <Fragments />
