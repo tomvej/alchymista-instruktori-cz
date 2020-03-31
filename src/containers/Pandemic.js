@@ -17,5 +17,5 @@ export default () => {
         <Box>
             {renderMarkdown(htmlAst)}
         </Box>
-    )
+    );
 };

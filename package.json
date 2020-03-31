@@ -38,11 +38,11 @@
     "whatwg-fetch": "3.0.0"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "18.0.1",
-    "eslint-plugin-import": "2.20.0",
+    "eslint-config-airbnb": "18.1.0",
+    "eslint-plugin-import": "2.20.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.18.0",
-    "eslint-plugin-react-hooks": "2.3.0"
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "3.0.0"
   },
   "keywords": [
     "gatsby"
@@ -51,9 +51,10 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "start": "npm run develop",
+    "start": "yarn develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git"

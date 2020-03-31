@@ -16,4 +16,4 @@ export default () => {
     return (
         <Alert>Přihlášení se nepodařilo. Zkus to znova a nebo nám napiš na <a href={`mailto:${contact}`}>{contact}</a>.</Alert>
     );
-}
+};
