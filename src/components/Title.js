@@ -4,6 +4,7 @@ import {graphql, useStaticQuery} from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 
 import ResponsiveContainer from './ResponsiveContainer';
+import MoreButton from './MoreButton';
 
 import style from './Title.module.scss';
 
@@ -27,7 +28,12 @@ const Title = ({title, summaryTable, subtitle}) => {
                     <div className={style.titleWrapper}>
                         <h1 className={style.title}>{title}</h1>
                         <h2 className={style.subtitle}>{subtitle}</h2>
-                        <div className={style.summaryWrapper}><div className={style.summary}>{summaryTable}</div></div>
+                        <div className={style.summaryWrapper}>
+                            <div className={style.summary}>
+                                {summaryTable}
+                                <MoreButton to="about" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ResponsiveContainer>
