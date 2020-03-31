@@ -2,6 +2,7 @@
 name: "Veša"
 photo: "vesa-costume.jpg"
 order: 6
+display: false
 ---
 Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Fusce suscipit libero eget elit. Nulla non arcu lacinia neque faucibus fringilla. Quisque porta. Nam sed tellus id magna elementum tincidunt. Sed ac dolor sit amet purus malesuada congue. Nam sed tellus id magna elementum tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Phasellus rhoncus. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Integer tempor. Etiam neque. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Praesent id justo in neque elementum ultrices. Duis condimentum augue id magna semper rutrum. Etiam quis quam. Nullam faucibus mi quis velit. Maecenas aliquet accumsan leo. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 

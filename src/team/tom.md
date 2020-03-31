@@ -2,6 +2,7 @@
 name: "Tomáš"
 photo: "tom-costume.jpg"
 order: 5
+display: true
 ---
 
 Na akci mě potkáš v roli mistra sedláře: zabývám se výrobou opasků, brašen, tašvic

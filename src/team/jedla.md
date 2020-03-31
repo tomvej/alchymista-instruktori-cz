@@ -2,6 +2,7 @@
 name: "Jedla"
 photo: "jedla-costume.jpg"
 order: 2
+display: false
 ---
 Kolem Instruktorů Brno se pohybuji od roku 1993. Rád pořádám akce zaměřené spíše futuristicky ([HiTech](http://hitech.instruktori.cz/),
 2001: Vesmírná odyssea, 2010: Vesmírná odyssea), Tvrz je pro mě protipól. Rád se na realitu dívám z odstupu, ať už z minulosti nebo z budoucnosti.

@@ -2,6 +2,7 @@
 name: "Janek"
 photo: "janek-costume.jpg"
 order: 7
+display: true
 ---
 K projektu Tvrz i zážitkové pedagogice jsem se dostal nedávno a na velké Tvrzi budu poprvé. Nejsem mistr žádného řemesla, ale určitě mě můžeš potkat u ohně s kytarou.
 

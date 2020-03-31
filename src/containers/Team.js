@@ -6,7 +6,10 @@ export default () => {
     const {team: {edges}} = useStaticQuery(graphql`
         query {
             team: allMarkdownRemark(
-                filter: {fileAbsolutePath: {glob: "**/team/*.md"}}
+                filter: {
+                    fileAbsolutePath: {glob: "**/team/*.md"}
+                    frontmatter: {display: {eq: true}}
+                }
                 sort: {fields: [frontmatter___order]}
             ) {
                 edges {
