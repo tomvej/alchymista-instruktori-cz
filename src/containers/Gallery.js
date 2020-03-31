@@ -13,7 +13,7 @@ export default () => {
                     node {
                         childImageSharp {
                             fixed(height: 250) {
-                                ...GatsbyImageSharpFixed
+                                ...GatsbyImageSharpFixed_withWebp
                             }
                         }
                     }

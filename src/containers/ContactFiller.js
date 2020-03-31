@@ -8,7 +8,7 @@ export default () => {
             image: file(relativePath: {eq: "stih.jpg"}) {
                 childImageSharp {
                     fluid(maxWidth: 1920) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
