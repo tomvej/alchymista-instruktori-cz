@@ -3,9 +3,11 @@ const sass = require('sass');
 module.exports = {
     siteMetadata: {
         title: 'Alchymistův učeň',
+        subtitle: 'Přijeď hledat svůj kámen mudrců!',
         description: 'Při­jeď hle­dat to, co tě ve tvém ži­vo­tě na­pl­ňu­je – svůj ká­men mudr­ců.',
         author: 'Tvrz',
         contact: 'alchymista@instruktori.cz',
+        fbEventId: '',
         lang: 'cs',
         year: 2020,
         basicInfo: [
@@ -18,7 +20,6 @@ module.exports = {
             name: 'entry.1528101418',
             email: 'entry.64509220',
             message: 'entry.1336304104',
-            photoConsent: 'entry.826063302',
         },
     },
     plugins: [
@@ -37,6 +38,20 @@ module.exports = {
                 path: `${__dirname}/src/text`,
             },
         },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'team',
+                path: `${__dirname}/src/team`,
+            },
+        },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'gallery',
+                path: `${__dirname}/src/gallery`,
+            },
+        },
         'gatsby-transformer-sharp',
         'gatsby-plugin-sharp',
         {
@@ -45,8 +60,8 @@ module.exports = {
                 name: 'Alchymistův učeň',
                 short_name: 'Alchymistův učeň',
                 start_url: '/',
-                background_color: '#663399',
-                theme_color: '#663399',
+                background_color: '#cfba9b',
+                theme_color: '#3D2B1F',
                 display: 'minimal-ui',
                 icon: 'src/images/squared-circle.svg',
             },
@@ -61,6 +76,16 @@ module.exports = {
             resolve: 'gatsby-transformer-remark',
             options: {
                 plugins: ['remark-czech-preprocessor'],
+            },
+        },
+        {
+            resolve: 'gatsby-plugin-google-fonts',
+            options: {
+                fonts: [
+                    'Eagle Lake',
+                    'Proza Libre',
+                ],
+                display: 'swap',
             },
         },
     ],

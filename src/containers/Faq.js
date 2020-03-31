@@ -1,11 +1,9 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
-import {renderMarkdown} from '../utils';
-import {FaqContainer, FaqItem} from '../components';
+import {FaqContainer, FaqItem, renderMarkdown} from '../components';
+import splitHeadings from './splitHeadings';
 
 const renderNodes = (children) => renderMarkdown({type: 'root', children});
-
-const isHeading = ({type, tagName}) => type === 'element' && tagName === 'h2';
 
 export default () => {
     const {faq: {childMarkdownRemark: {htmlAst}}} = useStaticQuery(graphql`
@@ -17,22 +15,11 @@ export default () => {
             }
         }
     `);
-
-    const {children: childNodes} = htmlAst;
-    const firstHeading = childNodes.findIndex(isHeading);
-    const sections = [];
-    for (let index = firstHeading; index < childNodes.length; index += 1) {
-        const node = childNodes[index];
-        if (isHeading(node)) {
-            sections.push({heading: node, children: []});
-        } else {
-            sections[sections.length - 1].children.push(node);
-        }
-    }
+    const [preface, sections] = splitHeadings(htmlAst, 2);
 
     return (
         <>
-            {renderNodes(childNodes.slice(0, firstHeading))}
+            {renderNodes(preface)}
             <FaqContainer>
                 {sections.map(({heading, children}, index) => (
                     // nothing else to use but index

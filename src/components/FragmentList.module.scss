@@ -1,0 +1,15 @@
+@import "../media";
+
+.main {
+    font-size: 1.1em;
+
+    li {
+        margin: .9em 0;
+    }
+
+    @include md {
+        li {
+            margin: .4em 0;
+        }
+    }
+}

@@ -5,7 +5,7 @@ const navbarContext = createContext();
 
 export const NavbarContextProvider = ({children}) => {
     const [height, setHeight] = useState(0);
-    const [shrunk, setShrunk] = useState(true);
+    const [shrunk, setShrunk] = useState(false);
 
     const value = useMemo(() => ({height, setHeight, shrunk}), [height, setHeight, shrunk]);
 

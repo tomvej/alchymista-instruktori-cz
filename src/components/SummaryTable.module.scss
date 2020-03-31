@@ -1,67 +1,108 @@
 @import "../variables";
+@import "../media";
 
 $radius: .5rem;
-$color-font: #ffffff;
+$padding: 2rem;
+$color-table-text: $color-title-highlight;
 
 .main {
+    width: 100%;
     display: flex;
 
-    min-width: 80%;
-    border-radius: $radius;
+    @include sm {
+        flex-direction: column;
+    }
 }
 
-.itemWrapper {
-    background-color: $color-text;
-
-    flex: 1 0 auto;
+.list {
+    flex: 3 3 0;
     display: flex;
-    justify-content: center;
+    background-color: $color-title-text;
+    color: $color-table-text;
 
+    margin: 0;
     padding: $radius;
-}
-
-.itemWrapper:first-child {
     border-top-left-radius: $radius;
     border-bottom-left-radius: $radius;
+
+    @include md {
+        flex-direction: column;
+    }
+
+    @include sm {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: $radius;
+    }
 }
 
 .item {
+    flex: 1 1 auto;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+
+    @include md {
+        justify-content: flex-start;
+    }
 }
 
+.item + .item {
+    border-left: .1rem solid $color-table-text;
+
+    @include md {
+        border: none;
+    }
+}
+
+.itemList {
+    display: flex;
+    flex-direction: column;
+
+    @include md {
+        flex-direction: row;
+    }
+}
 
 .label {
-    color: fade-out($color-font, .2);
+    color: fade-out($color-table-text, .3);
+
+    @include md {
+        &:after {
+            content: ': ';
+        }
+    }
 }
 
 .content {
-    margin: 0;
-    color: $color-font;
     font-size: 1.2em;
+    margin: 0;
+
+    @include md {
+        font-size: 1em;
+    }
 }
 
 .action {
-    flex: 1 0 auto;
+    flex: 1 1 0;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: $radius;
+    padding: $radius $padding;
     border-top-right-radius: $radius;
     border-bottom-right-radius: $radius;
 
-    text-align: center;
-    vertical-align: middle;
-
     background-color: $color-primary;
     color: $color-text;
+
+    @include sm {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: $radius;
+    }
 }
 
-.action:hover, .action:focus {
-    background-color: saturate($color-primary, 15%);
+.action:hover {
     text-decoration: none;
+    background-color: saturate($color-primary, 15%);
 }
 
 .icon {

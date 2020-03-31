@@ -1,14 +1,23 @@
 import React from 'react';
 import {Form as FinalForm} from 'react-final-form';
-import {useStaticQuery, graphql} from 'gatsby';
-import {Button, CheckboxField, ConsentArea, FormField, StringInput, Form, SideBySide, Box} from '../components';
-import {required, validEmail, renderMarkdown, submitForm} from '../utils';
+import {graphql, useStaticQuery} from 'gatsby';
+import {
+    Box,
+    Button,
+    Form,
+    FormField,
+    FormSection,
+    renderMarkdown,
+    SideBySide,
+    Spinner,
+    StringInput,
+} from '../components';
+import {required, submitForm, validEmail} from '../utils';
 import SubmitError from './SubmitError';
 
 export default () => {
     const {
-        site: {siteMetadata: {formAction, formFields: {name, email, message, photoConsent}}},
-        consentText: {childMarkdownRemark: {htmlAst: consentAst}},
+        site: {siteMetadata: {formAction, formFields: {name, email, message}}},
         registerText: {childMarkdownRemark: {htmlAst: registerAst}},
     } = useStaticQuery(graphql`
         query {
@@ -19,13 +28,7 @@ export default () => {
                         name
                         email
                         message
-                        photoConsent
                     }
-                }
-            }
-            consentText: file(relativePath: {eq: "photoConsent.md"}) {
-                childMarkdownRemark {
-                    htmlAst
                 }
             }
             registerText: file(relativePath: {eq: "register.md"}) {
@@ -37,18 +40,17 @@ export default () => {
     `);
 
     return (
-        <>
+        <FormSection>
             {renderMarkdown(registerAst)}
             <FinalForm
                 onSubmit={(values) => submitForm(formAction, {
                     [name]: values.name,
                     [email]: values.email,
                     [message]: values.message,
-                    [photoConsent]: values.photoConsent,
                 })}
                 initialValues={{photoConsent: true}}
             >
-                {({handleSubmit, valid, submitSucceeded, submitFailed}) => (
+                {({handleSubmit, valid, submitSucceeded, submitFailed, submitting}) => (
                     <Form onSubmit={handleSubmit}>
                         <SideBySide
                             left={(
@@ -76,19 +78,18 @@ export default () => {
                             component={StringInput}
                             area
                         />
-                        <CheckboxField
-                            name="photoConsent"
-                            label="Uděluji souhlas s focením"
-                        />
-                        <ConsentArea>
-                            {renderMarkdown(consentAst)}
-                        </ConsentArea>
                         {submitFailed && <SubmitError />}
-                        {submitSucceeded || <Button submit disabled={!valid}>Přihlásit se</Button>}
+                        {submitSucceeded || (
+                            <Button submit disabled={!valid || submitting}>
+                                {submitting && <Spinner />}
+                                {submitting && ' '}
+                                Přihlásit se
+                            </Button>
+                        )}
                         {submitSucceeded && <Box>Díky za tvou přihlášku. Co nevidět se ti ozveme.</Box>}
                     </Form>
                 )}
             </FinalForm>
-        </>
+        </FormSection>
     );
 };

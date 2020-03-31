@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import {FontAwesomeIcon as FAIcon} from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
+import {animateScroll} from 'react-scroll';
 
+import {preventDevault} from '../utils';
 import ResponsiveContainer from './ResponsiveContainer';
 import {useNavbarContext} from './navbarContext';
-
-import style from './Navbar.module.scss';
 import ScrollLink from './ScrollLink';
+import style from './Navbar.module.scss';
+
 
 const Navbar = ({brand, children, navlinks}) => {
     const {setHeight, shrunk} = useNavbarContext();
@@ -27,6 +29,7 @@ const Navbar = ({brand, children, navlinks}) => {
                 <a
                     href="#top"
                     className={classnames(style.brand, style.link)}
+                    onClick={preventDevault(() => animateScroll.scrollToTop())}
                 >
                     {brand}
                 </a>

@@ -1,5 +1,14 @@
 Často kladené dotazy
 ====================
+Chybí ti odpověď na nějakou tvou otázku? [Napiš nám!](#contact)
+
+## Jak se stavíte k pandemii COVID-19?
+Nechceme pořádat akci, která by mohla ohrozit účastníky a jejich blízké. Pokud nebude v srpnu situace dost bezpečná,
+akci nejpozději 1. 8. zrušíme a všechny peníze dostaneš zpátky. Při pořádání akce se budeme držet nejen nařízení,
+ale i doporučení vlády a hygieny.
+
+Zároveň jsme ti výjimečně ochotní vrátit celý účastnický poplatek, pokud se rozhodneš na akci nejet ze zdravotních důvodů
+nebo jiných důvodů souvisejících s pandemií (karanténa, osobní či pracovní situace, …).
 
 ## Co když na akci nikoho neznám?
 To je v pořádku a trochu počítáme s tím, že se účastníci na začátku mezi sebou znát nebudou. Dáme ti dost příležitostí
@@ -12,8 +21,14 @@ Snažíme se nastavit aktivity tak, aby je všichni účastníci zvládli a poku
 Naším záměrem není vás zcela ztrhat, ale dát vám možnost vyzkoušet si něco nového a rozvíjet se.
 
 ## Jsem spíš princezna a myslím, že bez mýdla dlouho nevydržím.
+Nemůžeme ti slíbit, že se každý den budeš moct mýt v teplé vodě, protože všechnu vodu musíme ohřát na ohni. Lázně ale zařazujeme, když je potřeba,
+často po fyzicky náročných nebo špinavých programech. Studené vody samozřejmě bude dostatek.
 
-## Ale já nevydržím bez telefonu
+Pokud to budeš opravdu potřebovat, můžeš domluvit s kuchyní a nechat si výjimečně ohřát vodu jen pro sebe.
+
+Nemusíš se ale bát, že se v lázních pořádně neumyješ. Je to trochu jako sprcha, jen místo sprchy máš džbán. Teplé vody, mýdla a šamponu bude dost.
+
+## Ale já nevydržím bez telefonu.
 Na celou dobu akce je nachystaný program, kromě toho se budeš setkávat se zajímavými lidmi. Naše zkušenost je taková,
 že většinu účastníků akce natolik pohltí, že si na telefon ani nevzpomenou.
 
@@ -50,19 +65,27 @@ Jinak se řemeslům věnujeme i na jiných akcích, například [Řemesla na Tvr
 
 ## Nemůžu jíst … Je to problém?
 Většinu běžných stravovacích omezení (bez masa, bez lepku, bez laktózy, …) jsme schopni zvládnout, když nám dáš předem vědět
-(budeš vyplňovat zdravotní dotazník). Pokud si nejsi jistý/á, zeptej se nás.
+(budeš vyplňovat zdravotní dotazník). Pokud si nejsi jistý/á, [zeptej se nás](mailto:alchymista@instruktori.cz).
 
-## Co se stane, když nebudu souhlasit s focením?
-Dáme vědět fotografovi a pokud se i tak náhodou na nějaké fotce vyskytneš, na konci akce ji smažeme. Rozhodně tvoje fotky nebudeme zveřejňovat.
+## Mám zdravotní omezení. Můžu jet?
+Důležitou součástí akce je fyzický pohyb a občas může být psychicky náročná. Na druhou stranu, náročnost jsme schopni upravovat
+a s velkým množstvím omezení a problémů jsme schopni si poradit – pokud o nich budeme vědět dopředu (po přihlášení ti pošleme dotazník).
+
+Pokud pravidelně bereš nějaké léky, zařídíme, aby na to byl čas.
+
+Pokud si nejsi jistý/á svým konkrétním omezením, [napiš nám](mailto:alchymista@instruktori.cz).
 
 ## Jaké jsou stornopoplatky?
-V případě, že z nějakého důvodu – i zdravotního – zrušíš svou účast, vrátíme ti:
+V případě, že z nějakého důvodu zrušíš svou účast, vrátíme ti:
 
 * do 14. 7. včetně 70 % tvého účastnického poplatku
 * do 4. 8. včetně 50 % tvého účastnického poplatku,
 * do 13. 8. včetně 10 % tvého účastnického poplatku.
 
 V případě, že akci zrušíme my, vrátíme ti 100 % tvého účastnického poplatku.
+
+Vzhlem k pandemii nemoci COVID-19 jsme ochotní ti vrátit celý účastnický poplatek, pokud se rozhodneš na akci nejet ze zdravotních důvodů
+nebo jiných důvodů souvisejících s pandemií (karanténa, osobní či pracovní situace, …). Věříme, že toho nezneužiješ.
 
 ## Co když mi kostým nebude sedět?
 V dotazníku si od tebe vyžádáme tvé základní míry, takže se do kostýmu téměř jistě vejdeš. Možná ti bude trochu větší,
@@ -89,14 +112,14 @@ Zážitková pedagogika (také zkušenostně reflektivní učení) do toho přin
 (předat konkrétní znalost, zkušenost) a vědomě pracuje s reflexí zážitku, zpětným ohlédnutím za tím, co se stalo a co si z toho vzít.
 
 Jak to bude probíhat? Na celou dobu akce máme připravené konkrétní aktivity: Hry, tvořivé činnosti jako práce a řemesla, diskuse, …
-Ty souvisí s tématem Alchymistova učně – hledáním Velkého díla – navazují na sebe a povedou tě k tomu, aby ses zamyslel nad tím,
+Ty souvisí s tématem Alchymistova učně – hledáním Velkého díla – navazují na sebe a povedou tě k tomu, aby ses zamyslel/a nad tím,
 jak to ve svém životě máš.
 
 Možná si vyzkoušíš něco nového. Prožiješ si něco a zjistíš o sobě něco, co jsi předtím nevěděl/a. A třeba si odneseš nějaké
 poučení do svého života, začneš věci dělat jinak.  Každopádně se potkáš se zajímavými lidmi a budete mít možnost sdílet své zkušenosti.
 
 ## A o čem teda Alchymistův učeň je?
-Tématem Alchymistova učně je hledání Velkého díla: Činností, které nás v životě naplňují, přinášejí nám radost a smysl.
+Tématem Alchymistova učně je hledání Velkého díla: činností, které nás v životě naplňují, přinášejí nám radost a smysl.
 Chceme se společně zamyslet nad tím, co pro nás takové činnosti charakterizuje, jak je poznat a možná je i najít.
 
 ## Jak moc drsný středověk děláte? Jste historicky věrní?

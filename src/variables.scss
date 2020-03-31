@@ -3,6 +3,12 @@ $z-index-fixed: 1030;
 $color-background: #cfba9b;
 $color-text: #3D2B1F; // bistre;
 
+$color-title-text: darken($color-text, 10%);
+$color-title-highlight: #fee5b0;
+
+$color-form-background: lighten($color-text, 15%);
+$color-form-text: lighten($color-background, 15%);
+
 $color-primary: #cd9b27;
 $color-error: #dc3545;
 
@@ -12,4 +18,7 @@ $color-input-border-active: #b3d1cf;
 $color-input-disabled: #dddddd;
 
 $shadow-input-active: 0 0 0 .2rem rgba($color-input-border-active, .25);
-$shadow-input-error: 0 0 0 .2rem rgba($color-error, .25)
+$shadow-input-error: 0 0 0 .2rem rgba($color-error, .25);
+
+$font-normal: "Proza Libre", sans-serif;
+$font-heading: "Eagle Lake", sans-serif;

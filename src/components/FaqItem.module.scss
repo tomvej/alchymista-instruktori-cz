@@ -1,3 +1,5 @@
+@import "../variables";
+
 .toggler {
     width: 100%;
     font-size: 1.3em;
@@ -6,6 +8,9 @@
     user-select: text;
     display: flex;
     justify-content: space-between;
+
+    hyphens: none;
+    text-align: left;
 }
 
 .toggler:focus {
@@ -13,8 +18,10 @@
     text-decoration-skip-ink: auto;
 }
 
+$faq-border: .1rem solid $color-text;
+
 .title {
-    border-top: 1px solid black; // FIXME
+    border-top: $faq-border;
 }
 
 .icon {
@@ -24,6 +31,10 @@
 
 .expanded .icon {
     transform: rotate(-180deg);
+}
+
+.expanded .toggler {
+    font-weight: bold;
 }
 
 .content {

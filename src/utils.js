@@ -1,18 +1,16 @@
-import RehypeReact from 'rehype-react';
-import React, {createElement, Fragment} from 'react';
+import React from 'react';
 import classnames from 'classnames';
 import emailValidator from 'email-validator';
 import queryString from 'query-string';
 
 export const noop = () => {};
 
-export const createMarkdownRenderer = (components = {}) => new RehypeReact({
-    createElement,
-    Fragment,
-    components,
-}).Compiler;
+export const seq = (length) => Array.from({length}).map((_, index) => index);
 
-export const renderMarkdown = createMarkdownRenderer();
+export const preventDevault = (handler) => (event) => {
+    event.preventDefault();
+    handler(event);
+};
 
 export const required = (value) => ((value !== null && value !== undefined && value !== '') ? undefined : 'Toto pole je povinné.');
 

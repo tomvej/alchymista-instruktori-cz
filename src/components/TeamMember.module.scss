@@ -1,0 +1,35 @@
+@import "../media";
+
+.main {
+    display: flex;
+
+    @include sm {
+        flex-direction: column;
+    }
+}
+
+.imagePositioner {
+    flex: 1 1 0;
+}
+
+.imageSizer {
+    position: relative;
+    padding-bottom: 133%;
+}
+
+.imageWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.text {
+    flex: 2 1 0;
+    padding-left: .5rem;
+}
+
+.title {
+    font-size: 1.7em;
+}

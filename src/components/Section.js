@@ -1,49 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Element} from 'react-scroll';
-import BackgroundImage from 'gatsby-background-image';
 
 import ResponsiveContainer from './ResponsiveContainer';
+import style from './Section.module.scss';
 
-const Section = ({name, children, bgImage}) => {
-    const content = (
-        <ResponsiveContainer>
-            <Element name={name}>
+const Section = ({name, children, narrow}) => (
+    <section id={name}>
+        <ResponsiveContainer narrow={narrow}>
+            <Element name={name} className={style.main}>
                 {children}
             </Element>
         </ResponsiveContainer>
-    );
-
-    if (bgImage) {
-        return (
-            <BackgroundImage
-                Tag="section"
-                id={name}
-                fluid={bgImage}
-            >
-                {content}
-            </BackgroundImage>
-        );
-    } else {
-        return (
-            <section
-                id={name}
-            >
-                {content}
-            </section>
-        );
-    }
-};
-
+    </section>
+);
 Section.propTypes = {
     name: PropTypes.string.isRequired,
-    bgImage: PropTypes.object, // eslint-disable-line react/forbid-prop-types
     children: PropTypes.node,
+    narrow: PropTypes.bool,
 };
 
 Section.defaultProps = {
-    bgImage: null,
     children: null,
+    narrow: false,
 };
 
 export default Section;

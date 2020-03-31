@@ -4,3 +4,8 @@ export {default as Info} from './Info';
 export {default as Footer} from './Footer';
 export {default as About} from './About';
 export {default as Fragments} from './Fragments';
+export {default as Team} from './Team';
+export {default as Contact} from './Contact';
+export {default as Gallery} from './Gallery';
+export {default as ContactFiller} from './ContactFiller';
+export {default as Pandemic} from './Pandemic';

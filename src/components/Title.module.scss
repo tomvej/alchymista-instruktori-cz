@@ -4,48 +4,99 @@
 $mask: #000000;
 
 .main {
-    height: 90vh;
+    height: 115vh;
+    position: relative;
+    min-height: 30rem;
 
-    @include md {
-        height: auto;
-        padding: 15rem 0;
+    @include ie-only {
+        height: 125vh;
+    }
+    @include edge-only {
+        height: 125vh;
     }
 }
 
-.image .image:after, .image:before {
-    mask-image: linear-gradient(#{fade-out($mask, 0)} 0%, #{fade-out($mask, 0)} 75%, fade-out($mask, 1) 100%);
+.background {
+    height: 109%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+    @include ie-only {
+        height: 100%;
+    }
+    @include edge-only {
+        height: 100%;
+    }
 }
 
-$overlay-color: fade-out($color-background, 0.9);
+.image {
+    height: 100%
+}
 
-:export {
-    overlay: linear-gradient($overlay-color 0%, $overlay-color 100%);
+.image .image:after, .image:before {
+    mask-image: linear-gradient(#{fade-out($mask, 0)} 0%, #{fade-out($mask, 0)} 80%, fade-out($mask, 1) 100%);
 }
 
 .container {
+    position: relative;
+    height: 87%;
     display: flex;
     flex-direction: column;
-    height: 100%;
     justify-content: center;
-    align-items: center;
+
+    @include ie-only {
+        height: 80%;
+    }
+    @include edge-only {
+        height: 80%;
+    }
 }
 
+.titleWrapper {
+    display: inline-block;
+}
+
+.summaryWrapper {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.summary {
+    flex: 1 1 0;
+}
+
+$sh-in: .005em;
+$sh-out: .015em;
+$text-shadow: $sh-out $sh-out $sh-out fade-out($color-title-highlight, .3), #{-$sh-in} #{-$sh-in} $sh-in fade-out($color-title-highlight, .3);
+
 .title {
-    font-size: 6em;
+    font-size: 7em;
     margin: 0;
-    white-space: nowrap;
 
     font-family: 'Pirata One', sans-serif;
     letter-spacing: .05em;
 
-    color: black;
-    text-shadow: .2rem .2rem fade-out(white, .7);
+    color: $color-title-text;
+    text-shadow: $text-shadow;
 
     @include md {
-        font-size: 4em;
+        font-size: 4.5em;
     }
 
     @include sm {
-        font-size: 3em;
+        font-size: 3.5em;
+    }
+}
+
+.subtitle {
+    color: $color-title-text;
+    text-shadow: $text-shadow;
+    font-size: 2em;
+    margin: 0;
+
+    @include md {
+        font-size: 1.2em;
     }
 }

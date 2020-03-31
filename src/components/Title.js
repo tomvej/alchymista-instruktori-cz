@@ -1,19 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classnames from 'classnames';
-import {useStaticQuery, graphql} from 'gatsby';
+import {graphql, useStaticQuery} from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 
 import ResponsiveContainer from './ResponsiveContainer';
 
 import style from './Title.module.scss';
 
-const Title = ({title, children}) => {
+const Title = ({title, summaryTable, subtitle}) => {
     const {background: {childImageSharp: {fluid}}} = useStaticQuery(graphql`
         query {
-            background: file(relativePath: {eq: "title.jpg"}) {
+            background: file(relativePath: {eq: "title1a.jpg"}) {
                 childImageSharp {
-                    fluid(quality: 90, maxWidth: 1920) {
+                    fluid(maxWidth: 1920) {
                         ...GatsbyImageSharpFluid_withWebp
                     }
                 }
@@ -22,26 +21,34 @@ const Title = ({title, children}) => {
     `);
 
     return (
-        <BackgroundImage
-            Tag="header"
-            fluid={[style.overlay, fluid]}
-            className={classnames(style.main, style.image)}
-        >
+        <header className={style.main}>
             <ResponsiveContainer className={style.container}>
-                <h1 className={style.title}>{title}</h1>
-                {children}
+                <div>
+                    <div className={style.titleWrapper}>
+                        <h1 className={style.title}>{title}</h1>
+                        <h2 className={style.subtitle}>{subtitle}</h2>
+                        <div className={style.summaryWrapper}><div className={style.summary}>{summaryTable}</div></div>
+                    </div>
+                </div>
             </ResponsiveContainer>
-        </BackgroundImage>
+            <div className={style.background}>
+                <BackgroundImage
+                    fluid={fluid}
+                    className={style.image}
+                />
+            </div>
+        </header>
     );
 };
 
 Title.propTypes = {
     title: PropTypes.string.isRequired,
-    children: PropTypes.node,
+    subtitle: PropTypes.string.isRequired,
+    summaryTable: PropTypes.node,
 };
 
 Title.defaultProps = {
-    children: null,
+    summaryTable: null,
 };
 
 export default Title;

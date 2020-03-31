@@ -10,7 +10,7 @@
 }
 
 .label {
-    font-size: 1.2em;
+    font-size: 1.1em;
     display: flex;
     cursor: pointer;
 
@@ -24,6 +24,11 @@
     border-radius: .2rem;
     margin: .2rem;
     background-color: $color-input-background;
+    color: $color-text;
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .main:hover .box:not(:disabled) + .checkMark,
