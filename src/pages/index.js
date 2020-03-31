@@ -50,6 +50,7 @@ const IndexPage = () => {
             <Title
                 title={title}
                 subtitle={subtitle}
+                more="about"
                 summaryTable={(
                     <SummaryTable
                         actionLink="register"

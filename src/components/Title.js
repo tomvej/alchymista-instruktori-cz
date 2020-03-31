@@ -8,7 +8,7 @@ import MoreButton from './MoreButton';
 
 import style from './Title.module.scss';
 
-const Title = ({title, summaryTable, subtitle}) => {
+const Title = ({title, summaryTable, subtitle, more}) => {
     const {background: {childImageSharp: {fluid}}} = useStaticQuery(graphql`
         query {
             background: file(relativePath: {eq: "title1a.jpg"}) {
@@ -31,7 +31,7 @@ const Title = ({title, summaryTable, subtitle}) => {
                         <div className={style.summaryWrapper}>
                             <div className={style.summary}>
                                 {summaryTable}
-                                <MoreButton to="about" />
+                                {more && <MoreButton to={more} />}
                             </div>
                         </div>
                     </div>
@@ -51,10 +51,12 @@ Title.propTypes = {
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string.isRequired,
     summaryTable: PropTypes.node,
+    more: PropTypes.string,
 };
 
 Title.defaultProps = {
     summaryTable: null,
+    more: null,
 };
 
 export default Title;
