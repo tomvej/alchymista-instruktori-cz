@@ -4,7 +4,8 @@ photo: "janek-costume.jpg"
 order: 7
 display: true
 ---
-K projektu Tvrz i zážitkové pedagogice jsem se dostal nedávno a na velké Tvrzi budu poprvé. Nejsem mistr žádného řemesla, ale určitě mě můžeš potkat u ohně s kytarou.
+K projektu Tvrz i zážitkové pedagogice jsem se dostal nedávno a na téhle prázdninovce budu poprvé. Nejsem mistr žádného řemesla,
+ale určitě mě můžeš potkat u ohně s kytarou.
 
 V současnosti dokončuji studium učitelství češtiny, trajdám po horách, snažím se vést roverský kmen a občas se vyskytnu na nějaké dřevárně nebo šermířské akci.
 

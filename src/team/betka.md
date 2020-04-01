@@ -4,7 +4,7 @@ photo: "betka-costume.jpg"
 order: 8
 display: true
 ---
-Na Tvrzi se zatím vyskytuju jen krátce, mezi organizátory jsem prvním rokem. Na žádné řemeslo ani práci jsem se zatím nezaměřila,
+Kolem Tvrze se zatím vyskytuju jen krátce, mezi organizátory jsem prvním rokem. Na žádné řemeslo ani práci jsem se zatím nezaměřila,
 takže mě spíš můžeš vidět, jak se motám kolem a snažím se pomáhat, kde je zrovna potřeba. Pokud se ale zrovna někde pracuje s krumpáčem,
 tak mě dost pravděpodobně uvidíš tam, s krumpáčem mi to totiž fakt jde!
 
