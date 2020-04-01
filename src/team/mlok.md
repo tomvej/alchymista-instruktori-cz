@@ -1,9 +1,15 @@
 ---
-name: "Mlok"
+name: "mlok"
 photo: "mlok-costume.jpg"
 order: 3
-display: false
+display: true
 ---
-Aenean fermentum risus id tortor. Aliquam ante. Praesent dapibus. Nunc tincidunt ante vitae massa. Nulla non arcu lacinia neque faucibus fringilla. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Curabitur vitae diam non enim vestibulum interdum. Proin mattis lacinia justo. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Phasellus et lorem id felis nonummy placerat.
+Kdybys mě hledal na Tvrzi největší šanci mě ulovit budeš mít v blízkosti koní. Starám se o to aby všichni čtyřnozí kopýtkatí i ti dnounozí
+kolem nich se motající zůstali na Tvrzi ve stabilním počtu i stavu.
 
-Nam quis nulla. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Vestibulum fermentum tortor id mi. Nullam sit amet magna in magna gravida vehicula. Nulla quis diam. Mauris tincidunt sem sed arcu. Maecenas aliquet accumsan leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur sagittis hendrerit ante. Morbi scelerisque luctus velit. Duis pulvinar. Maecenas libero.
+V civilním životě se zabývám vzděláváním za pomoci koní (HAE) je to metoda, kdy skrze práci s koňmi pomáháme lidem lépe vést lidi i sebe.
+Původním povoláním jsem architekt, se všemi myslitelnými profesními deformacemi. Také trénuji jezdce a koně a buduji náš malý statek.
+Zážitkovkou s Instruktory Brno v různých podobách se zabývám přes deset let a stále mě to baví.
+
+Tvrz byla mojí první akcí a v tomto případě platí beze zbytku "Co Tvrz schvátí již nenavrátí." stále jsem se vracela, až jsem ji nakonec začala pořádat.
+
