@@ -4,7 +4,7 @@ photo: "jedla-costume.jpg"
 order: 2
 display: true
 ---
-Na akci mám pod sebou řemesla, to znamená že se starám aby jednotliví řemeslnní mistři měli podmínky ke své práci. Sám se nejraději věnuji výrobě nožů.
+Na akci mám pod sebou řemesla, to znamená že se starám aby jednotliví řemeslní mistři měli podmínky ke své práci. Sám se nejraději věnuji výrobě nožů.
 
 Byl jsem na prvním ročníku Tvrze v roce 1994 jako účastník. Od té doby se do Rosic z většími či menšími přestávkami pořád vracím, v posledních letech jako organizátor.
 
