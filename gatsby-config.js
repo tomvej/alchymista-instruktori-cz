@@ -7,7 +7,7 @@ module.exports = {
         description: 'Při­jeď hle­dat to, co tě ve tvém ži­vo­tě na­pl­ňu­je – svůj ká­men mudr­ců.',
         author: 'Tvrz',
         contact: 'alchymista@instruktori.cz',
-        fbEventId: '',
+        fbEventId: '151196389586304',
         lang: 'cs',
         year: 2020,
         basicInfo: [

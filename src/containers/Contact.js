@@ -27,7 +27,7 @@ export default () => {
             </p>
             <p>Jsme aktivní i na Facebooku:</p>
             <p>
-                <Button href={`https://www.facebook.net/events/${fbEventId}`} outline>
+                <Button href={`https://www.facebook.com/events/${fbEventId}`} outline>
                     <FAIcon icon={faFacebookF} /> Sdílej!
                 </Button>
             </p>
