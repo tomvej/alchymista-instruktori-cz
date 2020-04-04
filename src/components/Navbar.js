@@ -5,7 +5,7 @@ import {FontAwesomeIcon as FAIcon} from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import {animateScroll} from 'react-scroll';
 
-import {preventDevault} from '../utils';
+import {pageView, preventDevault} from '../utils';
 import ResponsiveContainer from './ResponsiveContainer';
 import {useNavbarContext} from './navbarContext';
 import ScrollLink from './ScrollLink';
@@ -54,6 +54,7 @@ const Navbar = ({brand, children, navlinks}) => {
                                 to={to}
                                 className={classnames(style.navLink, style.link)}
                                 activeClass={style.active}
+                                onSetActive={() => pageView(to)}
                             >
                                 {label}
                             </ScrollLink>

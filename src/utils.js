@@ -33,3 +33,8 @@ export const submitForm = (action, values) => fetch(`${CORS_URL}${action}`, {
     },
     body: queryString.stringify(values),
 });
+
+export const pageView = (page) => {
+    window.ga('set', 'page', page);
+    window.ga('send', 'pageview');
+};
