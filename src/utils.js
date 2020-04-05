@@ -35,6 +35,8 @@ export const submitForm = (action, values) => fetch(`${CORS_URL}${action}`, {
 });
 
 export const pageView = (page) => {
-    window.ga('set', 'page', page);
-    window.ga('send', 'pageview');
+    if (process.env.NODE_ENV === 'production') {
+        window.ga('set', 'page', page);
+        window.ga('send', 'pageview');
+    }
 };
