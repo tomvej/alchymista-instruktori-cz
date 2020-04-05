@@ -14,6 +14,7 @@ import {
 } from '../components';
 import {required, submitForm, validEmail} from '../utils';
 import SubmitError from './SubmitError';
+import {FORM_ERROR} from 'final-form';
 
 export default () => {
     const {
@@ -47,7 +48,7 @@ export default () => {
                     [name]: values.name,
                     [email]: values.email,
                     [message]: values.message,
-                })}
+                }).catch(() => ({[FORM_ERROR]: 'cannot register'}))}
                 initialValues={{photoConsent: true}}
             >
                 {({handleSubmit, valid, submitSucceeded, submitFailed, submitting}) => (
