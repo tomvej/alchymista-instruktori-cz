@@ -15,7 +15,7 @@ Na akci můžeš jet, pokud ti bylo 18, nevadí ti trochu si zaběhat a při tom
 
 Jak to bude probíhat?
 ---------------------
-Na celou dobu akce máme naplánované různé aktivity. Můžou to být různé hry, tvořivé činnosti jako řemesla nebo práce na údržbě a budování vesničky,
+Na celou dobu akce máme naplánované různé aktivity. Můžou to být různé hry, tvořivé činnosti jako řemesla nebo práce na údržbě a budování vesničky, práce s koňmi,
 diskuze a další. Ty na sebe navazují, pracují se zkušenostmi z předchozích aktivit. Našim záměrem je dát ti možnost si vyzkoušet něco nového a něco se tak o sobě dozvědět.
 
 Kdo to pořádá?

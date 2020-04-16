@@ -111,7 +111,7 @@ Jak se člověk učí nejlépe? Něco si zažije a poučí se z toho. Napříkla
 Zážitková pedagogika (také zkušenostně reflektivní učení) do toho přináší dvě věci: Zaprvé, vytváří zážitky s nějakým konkrétním cílem
 (předat konkrétní znalost, zkušenost) a vědomě pracuje s reflexí zážitku, zpětným ohlédnutím za tím, co se stalo a co si z toho vzít.
 
-Jak to bude probíhat? Na celou dobu akce máme připravené konkrétní aktivity: Hry, tvořivé činnosti jako práce a řemesla, diskuse, …
+Jak to bude probíhat? Na celou dobu akce máme připravené konkrétní aktivity: Hry, tvořivé činnosti jako práce a řemesla, práci s koňmi, diskuse, …
 Ty souvisí s tématem Alchymistova učně – hledáním Velkého díla – navazují na sebe a povedou tě k tomu, aby ses zamyslel/a nad tím,
 jak to ve svém životě máš.
 
@@ -121,6 +121,16 @@ poučení do svého života, začneš věci dělat jinak.  Každopádně se potk
 ## A o čem teda Alchymistův učeň je?
 Tématem Alchymistova učně je hledání Velkého díla: činností, které nás v životě naplňují, přinášejí nám radost a smysl.
 Chceme se společně zamyslet nad tím, co pro nás takové činnosti charakterizuje, jak je poznat a možná je i najít.
+
+## Co mám čekat od práce s koňmi? Vadí, že jsem s nimi nikdy nedělal/a?
+V několika programech využíváme metodu vzdělávání pomocí koní (HAE), což je jedna z oblastí zážitkové pedagogiky. Koně nám poskytují
+dobré zrcadlo a na tom, jak s nimi pracujeme, se o sobě můžeme hodně dozvědět.
+
+Programy, které uvedeme, máme odzkoušené a jsou vhodné pro úplné začátečníky. Naopak, pokud má člověk s koňmi větší zkušenosti,
+už mu tolik nedají.
+
+Zároveň dbáme na bezpečnost: Pracujeme s koňmi, které dobře známe a vždy se kolem nich pohybuje dost lidí, kteří dávají pozor,
+aby se něco nestalo.
 
 ## Jak moc drsný středověk děláte? Jste historicky věrní?
 Středověk je pro nás spíše kulisa než hlavní zaměření. Baví nás, rádi zkoušíme historické postupy (například v řemeslech),
