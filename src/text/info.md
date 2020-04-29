@@ -37,7 +37,7 @@ Nebudeme po tobě chtít, abys perfektně zahrál/a středověkého vesničana. 
 Nechceme si to taky dělat moc drsné. Nějaké práci se nevyhneme, ale nebudeme otročit od svítání do soumraku.
 Představ si to tak, že občas bude třeba naštípat dříví pro kuchyni nebo pomoct s opravou doškové střechy.
 
-Znamená to ale taky, že po tobě budeme chtít, abys na dobu akci odložil/a mobilní telefon.
+Znamená to ale taky, že po tobě budeme chtít, abys na dobu akce odložil/a mobilní telefon.
 
 Co spaní a hygiena?
 -------------------
