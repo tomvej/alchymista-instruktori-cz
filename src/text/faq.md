@@ -144,4 +144,7 @@ Alchymistův učeň navazuje na tradiční akci Tvrz, která probíhala rok co r
 takže pro lidi, kteří na Tvrz byli před 20 lety to byl jiný zážitek než pro ty, co na ni byli před rokem.
 
 To, že používáme název Alchymistův učeň reflektuje vývoj Tvrze. Letošní akce bude o něčem trochu jiném než předloni a tomu odpovídá název.
-Zároveň to pro tým znamená posun blíže k zážitkové pedagogice.
+
+Alchymistův učeň je týdenní zážitková akce (prázdninovka) v kulisách středověké vesničky. Programy se budou věnovat tématu.
+Zároveň jsou postavené tak, aby zapadaly do prostředí středověké vesničky. Stavíme také na některých klasických prvcích Tvrze,
+konkrétně práci a řemeslech.
