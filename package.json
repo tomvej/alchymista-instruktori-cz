@@ -35,6 +35,7 @@
     "react-helmet": "5.2.1",
     "react-scroll": "1.7.16",
     "rehype-react": "5.0.1",
+    "remark-czech-preprocessor": "tomvej/remark-czech-preprocessor",
     "sass": "1.26.3",
     "whatwg-fetch": "3.0.0"
   },
