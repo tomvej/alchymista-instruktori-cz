@@ -13,7 +13,7 @@ import {
     Fragments,
     Gallery,
     Info,
-    Pandemic,
+    Next,
     RegisterForm,
     Team,
 } from '../containers';
@@ -63,7 +63,7 @@ const IndexPage = () => {
                 <Fragments />
             </Section>
             <Section name="info">
-                <Pandemic />
+                <Next />
                 <Info />
                 <Gallery />
             </Section>
