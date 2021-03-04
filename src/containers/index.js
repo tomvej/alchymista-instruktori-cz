@@ -9,3 +9,4 @@ export {default as Contact} from './Contact';
 export {default as Gallery} from './Gallery';
 export {default as ContactFiller} from './ContactFiller';
 export {default as Pandemic} from './Pandemic';
+export {default as Next} from './Next';
