@@ -22,7 +22,7 @@
     "gatsby-plugin-sass": "2.2.1",
     "gatsby-plugin-sharp": "2.5.3",
     "gatsby-source-filesystem": "2.2.2",
-    "gatsby-transformer-remark": "2.7.1",
+    "gatsby-transformer-remark": "5.25.1",
     "gatsby-transformer-sharp": "2.4.3",
     "intersection-observer": "0.7.0",
     "invariant": "2.2.4",
